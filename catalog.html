@@ -48,7 +48,6 @@
 <section class="catalog-products">
 <h2 class="visually-hidden">Список товаров с фильтрами</h2>
 <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-</select>
   <fieldset class="catalog-filter-group">
 <legend class="catalog-filter-title">Сортировка:</legend>
   <select class="select-control" aria-label="Сортировка">
@@ -56,7 +55,8 @@
   </select>
 </fieldset>
 <fieldset class="catalog-filter-group">
-  <legend class="catalog-filter-title">Цена: 100 ₽ – 500 ₽</legend>
+  <legend class="catalog-filter-title">Цена: <input type="text" value="100"> ₽ – <input type="text" value="500"> ₽
+  </legend>
   <input type="range" min="100" max="500" step="1" value="50">
 </fieldset>
 <fieldset class="catalog-filter-group">
