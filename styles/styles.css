@@ -159,3 +159,14 @@ line-height: 24px;
 .studio-link{
     color: #2D3440;
 }
+.breadcrumbs-link{
+    font-size: 14px;
+    line-height: 20px;
+    color: #2D3440;
+    font-weight: 700;
+}
+.catalog-filter{
+font-size: 14px;
+line-height: 20px;
+color: #2D3440;
+}
