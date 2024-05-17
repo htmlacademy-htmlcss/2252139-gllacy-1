@@ -142,4 +142,20 @@ font-weight: 700;
 font-size: 20px;
 line-height: 24px;
 }
-:nth-of-child(1)
+.provider-list-item:first-child{
+    font-weight: 700;
+}
+.provider-item-link{
+    text-decoration: none;
+    color: #2D3440;
+    font-size: 14px;
+    line-height: 20px;
+}
+.studuio-description{
+    font-size: 12px;
+    line-height: 16px;
+
+}
+.studio-link{
+    color: #2D3440;
+}
