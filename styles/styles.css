@@ -127,3 +127,19 @@ color: #2D3440;
     color: #2D3440;
     font-weight: 700;
 }
+.adress-link{
+text-decoration: none;
+color: #2D3440;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+}
+.number-link
+{
+    text-decoration: none;
+color: #2D3440;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+}
+:nth-of-child(1)
