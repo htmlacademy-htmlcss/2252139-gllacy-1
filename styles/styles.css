@@ -106,3 +106,14 @@ color: #2D3440;
     color: #2D3440;
     text-align: center;
 }
+.news-comment{
+    line-height :20px ;
+}
+.news-link{
+     color: #2D3440;
+     font-weight: 700;
+     text-decoration: none;
+     font-size:24px ;
+     line-height: 30px;
+}
+
