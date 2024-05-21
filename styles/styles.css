@@ -1,0 +1,172 @@
+@font-face
+{
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+src: url(../fonts/inter-400.woff2) format("woff2");
+font-display: swap;
+
+}
+
+@font-face
+{
+font-family: "Inter";
+font-style: normal;
+font-weight: 700;
+src: url(../fonts/inter-700.woff2) format("woff2");
+font-display: swap;
+
+}
+
+@font-face
+{
+font-family: "Inter";
+font-style: normal;
+font-weight: 900;
+src: url(../fonts/inter-900.woff2) format("woff2");
+font-display: swap;
+
+}
+
+body{
+    font-family: "Inter";
+    font-size: 16px;
+    line-height: 22px;
+    background-color:#FEAFC3 ;
+    color: #565C66;
+}
+.main-header{
+    line-height: 20px;
+    color:#2D3440;
+}
+.contacts-phone{
+    font-weight: 700;
+
+}
+.navigation-item a{
+    text-decoration: none;
+    color: #2D3440;
+}
+.slider-title{
+font-weight :900;
+font-size: 36px;
+line-height: 46px;
+color: #2D3440;
+}
+.icecream-description{
+    font-size: 18px;
+    line-height: 24px;
+    color: #2D3440;
+}
+.button-link{
+    text-decoration: none;
+    color: #2D3440;
+}
+.title-description{
+    font-weight: 900;
+    font-size: 32px;
+    line-height :46px ;
+    color: #2D3440;
+    text-align: center;
+}
+.present-list-item-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color:#2D3440;
+}
+.present-list-item-description{
+    color: #2D3440;
+}
+.popular-title{
+    font-weight: 900;
+    font-size: 32px;
+    line-height :46px ;
+    color: #2D3440;
+    text-align: center;
+}
+.popular-icecream-title-link{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color:#2D3440;
+    text-decoration: none;
+
+}
+.product-price{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2D3440;
+}
+.about-title{
+    font-weight: 900;
+    font-size: 32px;
+    line-height :46px ;
+    color: #2D3440;
+    text-align: center;
+}
+.news-comment{
+    line-height :20px ;
+}
+.news-link{
+     color: #2D3440;
+     font-weight: 700;
+     text-decoration: none;
+     font-size:24px ;
+     line-height: 30px;
+}
+.delivery-title{
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 46px;
+    color: #2D3440;
+}
+.form-label{
+    line-height: 20px;
+    color: #2D3440;
+    font-weight: 700;
+}
+.adress-link{
+text-decoration: none;
+color: #2D3440;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+}
+.number-link
+{
+    text-decoration: none;
+color: #2D3440;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+}
+.provider-list-item:first-child{
+    font-weight: 700;
+}
+.provider-item-link{
+    text-decoration: none;
+    color: #2D3440;
+    font-size: 14px;
+    line-height: 20px;
+}
+.studuio-description{
+    font-size: 12px;
+    line-height: 16px;
+
+}
+.studio-link{
+    color: #2D3440;
+}
+.breadcrumbs-link{
+    font-size: 14px;
+    line-height: 20px;
+    color: #2D3440;
+    font-weight: 700;
+}
+.catalog-filter{
+font-size: 14px;
+line-height: 20px;
+color: #2D3440;
+}
