@@ -210,3 +210,11 @@ margin-right: 30px;}
 margin: 0;
 list-style: none;}
 .popular-icecream-list-item{width: 270px;}
+.all-news{
+    display :flex;
+    
+}
+.news{width: 570px;}
+.news:first-child{
+    margin-right: 30px;
+}
