@@ -175,3 +175,17 @@ font-size: 14px;
 line-height: 20px;
 color: #2D3440;
 }
+.navigation{
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+}
+.navigation-list{
+    margin: 0;
+    list-style: none;
+    width: 420px;
+}
+.logo-link{width: 137px;
+margin-right: 16px;}
+.navigation-user{margin-left: auto;
+width: 431px;}
