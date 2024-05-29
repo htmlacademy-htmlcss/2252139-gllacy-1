@@ -225,3 +225,17 @@ list-style: none;}
 }
 .delivery-card{width: 500px;}
 .adress-card{width: 343px;}
+.main-footer{display: flex;
+width: 1170px;
+margin: 0 auto;}
+.social-list{list-style: none;
+    width: 104px;
+margin: 0;
+margin-right:259px ;}
+.provider-list{
+    margin: 0;
+    list-style: none;
+    width: 356px;
+    margin-right: 259px;
+}
+.studuio-card{width: 193px;}
