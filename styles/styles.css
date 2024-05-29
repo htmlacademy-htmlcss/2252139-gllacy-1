@@ -221,5 +221,7 @@ list-style: none;}
 .delivery{display:flex;}
 .delivery-container{
     width: 371px;
+    margin-right: 135px;
 }
 .delivery-card{width: 500px;}
+.adress-card{width: 343px;}
