@@ -212,9 +212,14 @@ list-style: none;}
 .popular-icecream-list-item{width: 270px;}
 .all-news{
     display :flex;
-    
+
 }
 .news{width: 570px;}
 .news:first-child{
     margin-right: 30px;
 }
+.delivery{display:flex;}
+.delivery-container{
+    width: 371px;
+}
+.delivery-card{width: 500px;}
