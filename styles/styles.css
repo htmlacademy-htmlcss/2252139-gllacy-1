@@ -189,3 +189,12 @@ color: #2D3440;
 margin-right: 16px;}
 .navigation-user{margin-left: auto;
 width: 431px;}
+.page-container{width: 1170px;
+margin: 0 auto;}
+.first-demonstration-icecream{display: flex;}
+.collector{width: 470px ;
+}
+.slider-prev{
+order: -1;
+}
+present-list
