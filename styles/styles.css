@@ -283,3 +283,6 @@ justify-content: flex-end;}
 .pagination{display: flex;
 list-style: none;
 margin-left: 335px;}
+.catalog-filter{display: flex;
+width: 823px;
+flex-wrap: wrap;}
