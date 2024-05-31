@@ -239,3 +239,20 @@ margin-right:259px ;}
     margin-right: 259px;
 }
 .studuio-card{width: 193px;}
+.about-list{
+margin: 0;
+    display:flex;
+width: 1044px;
+flex-wrap: wrap;}
+.about-list-item{display: flex;
+margin-right: 32px;}
+.about-description{width: 442px;}
+.about-description-image{width: 48px;
+display: block;
+margin-right: 16px;}
+.about-list-item:nth-child(2){
+    margin-right: 0;
+}
+.about-list-item:nth-child(4){
+    margin-right: 0;
+}
