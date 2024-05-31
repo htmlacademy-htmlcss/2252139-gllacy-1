@@ -263,4 +263,9 @@ margin-right: 16px;}
     32px;
     line-height:
     46px;}
-
+.breadcrumbs{display: flex;
+width: 335px;
+margin: 0;
+list-style: none;}
+.breadcrumbs-item{margin-right: 28px ;}
+.breadcrumbs-item:last-child{margin-right: 0 ;}
