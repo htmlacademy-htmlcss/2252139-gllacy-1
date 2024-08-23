@@ -183,9 +183,10 @@ body {
   width: 137px;
   margin-right: 16px;
 }
-.navigation-user {
+.navigation-list.navigation-user {
   margin-left: auto;
   width: 431px;
+
 }
 .page-container {
   width: 1170px;
@@ -343,4 +344,35 @@ body {
   border: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.navigation-list{
+  display: flex;
+  padding: 0 ;
+  flex-wrap: wrap;
+align-items: center;
+
+
+}
+.navigation{
+  padding: 24px 0;
+}
+.navigation-item a{
+  padding: 8px 16px;
+}
+.navigation-user .nav-link{
+
+  padding: 6px 16px;
+}
+.navigation-user .navigation-item{
+    margin-right: 16px;
+}
+.navigation-user .navigation-item:last-child{
+ margin-right:0 ;
+}
+.nav-link.contacts-phone{
+  padding: 0;
+}
+.nav-link.search{
+  padding: 8px;
 }
