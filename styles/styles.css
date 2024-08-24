@@ -1,288 +1,758 @@
-@font-face
-{
-font-family: "Inter";
-font-style: normal;
-font-weight: 400;
-src: url(../fonts/inter-400.woff2) format("woff2");
-font-display: swap;
-
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/inter-400.woff2) format("woff2");
+  font-display: swap;
 }
 
-@font-face
-{
-font-family: "Inter";
-font-style: normal;
-font-weight: 700;
-src: url(../fonts/inter-700.woff2) format("woff2");
-font-display: swap;
-
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/inter-700.woff2) format("woff2");
+  font-display: swap;
 }
 
-@font-face
-{
-font-family: "Inter";
-font-style: normal;
-font-weight: 900;
-src: url(../fonts/inter-900.woff2) format("woff2");
-font-display: swap;
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  src: url(../fonts/inter-900.woff2) format("woff2");
+  font-display: swap;
+}
+html {
+  height: 100%;
+}
+.main-container {
+  flex-grow: 1;
+}
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 22px;
+  background-color: #feafc3;
+  color: #565c66;
+}
+.main-header {
+  line-height: 20px;
+  color: #2d3440;
+}
+.contacts-phone {
+  font-weight: 700;
+}
+.navigation-item a {
+  text-decoration: none;
+  color: #2d3440;
+}
+.slider-title {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 46px;
+  color: #2d3440;
+}
+.icecream-description {
+  font-size: 18px;
+  line-height: 24px;
+  color: #2d3440;
+  width: 429px;
+}
+.button-link {
+  text-decoration: none;
+  color: #2d3440;
+}
+.title-description {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 46px;
+  color: #2d3440;
+  text-align: center;
+}
+.present-list-item-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #2d3440;
+}
+.present-list-item-description {
+  color: #2d3440;
+}
+.popular-title {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 46px;
+  color: #2d3440;
+  text-align: center;
+}
+.popular-icecream-title-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2d3440;
+  text-decoration: none;
+}
+.product-price {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2d3440;
+}
+.about-title {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 46px;
+  color: #2d3440;
+  text-align: center;
+}
+.news-comment {
+  line-height: 20px;
+}
+.news-link {
+  color: #2d3440;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 30px;
+}
+.delivery-title {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 46px;
+  color: #2d3440;
+}
+.form-label {
+  line-height: 20px;
+  color: #2d3440;
+  font-weight: 700;
+}
+.adress-link {
+  text-decoration: none;
+  color: #2d3440;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+.number-link {
+  text-decoration: none;
+  color: #2d3440;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+.provider-list-item:first-child {
+  font-weight: 700;
+}
+.provider-item-link {
+  text-decoration: none;
+  color: #2d3440;
+  font-size: 14px;
+  line-height: 20px;
+}
+.studuio-description {
+  font-size: 12px;
+  line-height: 16px;
+}
+.studio-link {
+  color: #2d3440;
+}
+.breadcrumbs-link {
+  font-size: 14px;
+  line-height: 20px;
+  color: #2d3440;
+  font-weight: 700;
+}
+.catalog-filter {
+  font-size: 14px;
+  line-height: 20px;
+  color: #2d3440;
+}
+.navigation {
+  display: flex;
+  width: 1170px;
+  margin: 0 auto;
+}
+.navigation-list {
+  margin: 0;
+  list-style: none;
+  width: 420px;
+}
+.logo-link {
+  margin-bottom: 14px;
+  display: block;
+  height: 27px;
+}
+.navigation-list.navigation-user {
+  margin-left: auto;
+  width: 431px;
+}
+.page-container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.first-demonstration-icecream {
+  display: flex;
+}
+.collector {
+  width: 455px;
+  flex-shrink: 0;
+}
+.slider-prev {
+  order: -1;
+}
 
+.first-demonstration-icecream-container {
+  order: -2;
 }
-html{height: 100%;}
-.main-container{flex-grow: 1;}
-body{
-    margin:0;
-    display:flex;
-    flex-direction: column;
-    min-height: 100%;
-    font-family: "Inter";
-    font-size: 16px;
-    line-height: 22px;
-    background-color:#FEAFC3 ;
-    color: #565C66;
+.present-list {
+  margin: 0;
+  list-style: none;
+  display: flex;
 }
-.main-header{
-    line-height: 20px;
-    color:#2D3440;
+.present-list-item {
+  width: 570px;
+  margin-right: 30px;
 }
-.contacts-phone{
-    font-weight: 700;
+.present-list-item:last-child {
+  margin-right: 0;
+}
+.popular-icecream-list {
+  display: flex;
+  margin: 0;
+  list-style: none;
+}
+.popular-icecream-list-item {
+  margin-right: 30px;
+  margin-bottom: 40px;
+}
+.popular-icecream-list-item:nth-child(4n) {
+  margin-right: 0;
+}
+.all-news {
+  display: flex;
+}
+.news {
+  width: 538px;
+  height: 224px;
+}
+.news:first-child {
+  margin-right: 30px;
+}
+.delivery {
+  display: flex;
+}
+.delivery-container {
+  width: 371px;
+  margin-right: 135px;
+}
+.delivery-card {
+  width: 420px;
+}
+.adress-card {
+  width: 1170px;
+}
+.main-footer {
+  width: 1170px;
+  margin: 0 auto;
+}
+.social-list {
+  list-style: none;
+  width: 104px;
+  margin: 0;
+  display: flex;
+  padding: 0;
+}
+.provider-list {
+  margin: 0;
+  list-style: none;
+  width: 356px;
+}
+.studuio-card {
+  width: 193px;
+}
+.about-list {
+  margin: 0;
+  display: flex;
+  width: 1044px;
+  flex-wrap: wrap;
+}
+.about-list-item {
+  display: flex;
+  margin-right: 32px;
+}
+.about-description {
+  width: 442px;
+  height: 66px;
+  margin: 0;
+}
+.about-description-image {
+  width: 48px;
+  display: block;
+  margin-right: 16px;
+  height: 48px;
+}
+.about-list-item:nth-child(2) {
+  margin-right: 0;
+}
+.about-list-item:nth-child(4) {
+  margin-right: 0;
+}
+.main-title {
+  color: #2d3440;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 46px;
+}
+.breadcrumbs {
+  display: flex;
+  width: 335px;
+  margin: 0;
+  list-style: none;
+}
+.breadcrumbs-item {
+  margin-right: 28px;
+}
+.breadcrumbs-item:last-child {
+  margin-right: 0;
+}
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.pagination {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 
+  margin-left: 335px;
 }
-.navigation-item a{
-    text-decoration: none;
-    color: #2D3440;
-}
-.slider-title{
-font-weight :900;
-font-size: 36px;
-line-height: 46px;
-color: #2D3440;
-}
-.icecream-description{
-    font-size: 18px;
-    line-height: 24px;
-    color: #2D3440;
-}
-.button-link{
-    text-decoration: none;
-    color: #2D3440;
-}
-.title-description{
-    font-weight: 900;
-    font-size: 32px;
-    line-height :46px ;
-    color: #2D3440;
-    text-align: center;
-}
-.present-list-item-title{
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 30px;
-    color:#2D3440;
-}
-.present-list-item-description{
-    color: #2D3440;
-}
-.popular-title{
-    font-weight: 900;
-    font-size: 32px;
-    line-height :46px ;
-    color: #2D3440;
-    text-align: center;
-}
-.popular-icecream-title-link{
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
-    color:#2D3440;
-    text-decoration: none;
-
-}
-.product-price{
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
-    color: #2D3440;
-}
-.about-title{
-    font-weight: 900;
-    font-size: 32px;
-    line-height :46px ;
-    color: #2D3440;
-    text-align: center;
-}
-.news-comment{
-    line-height :20px ;
-}
-.news-link{
-     color: #2D3440;
-     font-weight: 700;
-     text-decoration: none;
-     font-size:24px ;
-     line-height: 30px;
-}
-.delivery-title{
-    font-weight: 900;
-    font-size: 32px;
-    line-height: 46px;
-    color: #2D3440;
-}
-.form-label{
-    line-height: 20px;
-    color: #2D3440;
-    font-weight: 700;
-}
-.adress-link{
-text-decoration: none;
-color: #2D3440;
-font-weight: 700;
-font-size: 20px;
-line-height: 24px;
-}
-.number-link
-{
-    text-decoration: none;
-color: #2D3440;
-font-weight: 700;
-font-size: 20px;
-line-height: 24px;
-}
-.provider-list-item:first-child{
-    font-weight: 700;
-}
-.provider-item-link{
-    text-decoration: none;
-    color: #2D3440;
-    font-size: 14px;
-    line-height: 20px;
-}
-.studuio-description{
-    font-size: 12px;
-    line-height: 16px;
-
-}
-.studio-link{
-    color: #2D3440;
-}
-.breadcrumbs-link{
-    font-size: 14px;
-    line-height: 20px;
-    color: #2D3440;
-    font-weight: 700;
-}
-.catalog-filter{
-font-size: 14px;
-line-height: 20px;
-color: #2D3440;
-}
-.navigation{
-    display: flex;
-    width: 1170px;
-    margin: 0 auto;
-}
-.navigation-list{
-    margin: 0;
-    list-style: none;
-    width: 420px;
-}
-.logo-link{width: 137px;
-margin-right: 16px;}
-.navigation-user{margin-left: auto;
-width: 431px;}
-.page-container{width: 1170px;
-margin: 0 auto;}
-.first-demonstration-icecream{display: flex;}
-.collector{width: 470px ;
-}
-.slider-prev{
-order: -1;
+.catalog-filter {
+  display: flex;
+  width: 823px;
+  flex-wrap: wrap;
 }
 
-.first-demonstration-icecream-container{order:-2;}
-.present-list{margin:0;
-list-style: none;
-display: flex;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
-.present-list-item{width: 570px;
-margin-right: 30px;}
-.present-list-item:last-child{margin-right: 0;}
-.popular-icecream-list{display: flex;
-margin: 0;
-list-style: none;}
-.popular-icecream-list-item{width: 270px;
-margin-right: 30px;}
-.popular-icecream-list-item:nth-child(4n){margin-right:0;}
-.all-news{
-    display :flex;
 
+.navigation-list {
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+  align-items: center;
 }
-.news{width: 570px;}
-.news:first-child{
-    margin-right: 30px;
+.navigation {
+  padding: 24px 0;
 }
-.delivery{display:flex;}
-.delivery-container{
-    width: 371px;
-    margin-right: 135px;
+.navigation-item a {
+  padding: 8px 16px;
 }
-.delivery-card{width: 500px;}
-.adress-card{width: 343px;}
-.main-footer{display: flex;
-width: 1170px;
-margin: 0 auto;}
-.social-list{list-style: none;
-    width: 104px;
-margin: 0;
-margin-right:259px ;}
-.provider-list{
-    margin: 0;
-    list-style: none;
-    width: 356px;
-    margin-right: 259px;
+.navigation-user .nav-link {
+  padding: 6px 16px;
 }
-.studuio-card{width: 193px;}
-.about-list{
-margin: 0;
-    display:flex;
-width: 1044px;
-flex-wrap: wrap;}
-.about-list-item{display: flex;
-margin-right: 32px;}
-.about-description{width: 442px;}
-.about-description-image{width: 48px;
-display: block;
-margin-right: 16px;}
-.about-list-item:nth-child(2){
-    margin-right: 0;
+.navigation-user .navigation-item {
+  margin-right: 16px;
 }
-.about-list-item:nth-child(4){
-    margin-right: 0;
+.navigation-user .navigation-item:last-child {
+  margin-right: 0;
 }
-.main-title{color: #2D3440;
-    font-weight:
-    900;
-    font-size:
-    32px;
-    line-height:
-    46px;}
-.breadcrumbs{display: flex;
-width: 335px;
-margin: 0;
-list-style: none;}
-.breadcrumbs-item{margin-right: 28px ;}
-.breadcrumbs-item:last-child{margin-right: 0 ;}
-.product-list{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0;
-    list-style: none;
-    padding: 0;
+.nav-link.contacts-phone {
+  padding: 0;
 }
-.button-container{display: flex;
-justify-content: flex-end;}
-.pagination{display: flex;
-list-style: none;
-margin-left: 335px;}
-.catalog-filter{display: flex;
-width: 823px;
-flex-wrap: wrap;}
+.nav-link.search {
+  padding: 8px;
+}
+.slide {
+  display: none;
+}
+.slide.slide-active {
+  display: flex;
+  margin-left: 70px;
+}
+.slider-tech {
+  display: flex;
+}
+.slider-pagination {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  margin-right: auto;
+}
+.slide-image-curent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 21px;
+}
+.slider-button.slider-next {
+  order: -1;
+}
+.slider-image-curent {
+  order: -1;
+}
+.slider-title {
+  margin-top: 136px;
+  margin-bottom: 24px;
+  width: 470px;
+}
+.icecream-description {
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+.button-link {
+  padding: 12px 32px;
+  background-color: rgba(252, 252, 252, 1);
+  margin-bottom: 126px;
+}
+.first-demonstration-icecream-container {
+  height: 554px;
+  width: 1170px;
+}
+section {
+  margin-bottom: 80px;
+}
+section:last-child {
+  margin-bottom: 0;
+}
+.title-description {
+  width: 434px;
+  margin: 0 auto;
+  margin-bottom: 55px;
+}
+.present-list-item-description {
+  width: 304px;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.present-list-item {
+  display: flex;
+  background-color: rgba(255, 119, 153, 1);
+}
+.present-list-item-title {
+  margin-top: 36px;
+  margin-bottom: 28px;
+}
+.present-list-item-inner {
+  margin-left: 36px;
+  margin-right: 11px;
+}
+.present-list-item-inner .button-link {
+  margin: 0;
+}
+.popular-title {
+  width: 527px;
+  margin: 0 auto;
+  margin-bottom: 56px;
+}
+.popular-icecream-list-item-description {
+  width: 190px;
+  margin-top: 0;
+}
+.popular-icecream-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 40px;
+  padding-bottom: 24px;
+  padding-right: 40px;
+  background-color: rgba(252, 252, 252, 1);
+}
+.popular-icecream-title {
+  margin: 0;
+  margin-bottom: 8px;
+}
+.popular-icecream-image {
+  border-radius: 50%;
+}
+.price-container {
+  display: flex;
+  justify-content: space-between;
+  width: 190px;
+}
+.popular-icecream-link {
+  width: 32px;
+  height: 32px;
+  background-color: rgba(255, 47, 100, 1);
+}
+.popular-icecream-image-link {
+  height: 168px;
+  margin-bottom: 16px;
+}
+.about {
+  background-image: url(../images/waffle.png);
+  padding: 24px;
+}
+.about-container {
+  background-color: aliceblue;
+  padding-top: 56px;
+  padding-bottom: 16px;
+}
+.about-title {
+  margin-top: 0;
+  margin-bottom: 56px;
+}
+.about-list-item {
+  height: 66px;
+  margin-bottom: 40px;
+}
+.news {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/back-icecream.png);
+  background-repeat: no-repeat;
+  background-size: 115%;
+  background-position-x: -5px;
+  background-position-y: -110px;
+  padding-left: 32px;
+  flex-shrink: 0;
+}
+.news-link {
+  width: 303px;
+}
+.news-comment {
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+.news-email-container {
+  background-color: rgba(251, 251, 251, 1);
+  padding: 26px;
+  width: 506px;
+  margin: 6px;
+}
+.news-email {
+  background-image: url(../images/back-line.png);
+
+  background-size: cover;
+  width: 570px;
+  height: 224px;
+  background-repeat: no-repeat;
+}
+.news-description {
+  margin: 0;
+  margin-bottom: 42px;
+  width: 506px;
+}
+.newslater-input-form {
+  width: 316px;
+  height: 48px;
+  padding: 0;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-right: 14px;
+  padding-left: 16px;
+  border: 1px solid rgba(185, 185, 185, 1);
+}
+.newsleter-button {
+  padding: 12px 32px;
+  border: 1px;
+  width: 152px;
+  background-color: rgba(255, 47, 100, 1);
+  color: white;
+}
+aside {
+  margin-bottom: 80px;
+}
+.delivery {
+  background-image: url(../images/back-many-food.png);
+  height: 534px;
+  background-repeat: no-repeat;
+}
+.delivery-title {
+  margin: 0;
+  margin-bottom: 24px;
+  width: 356px;
+  margin-top: 167px;
+}
+.delivery-description {
+  margin: 0;
+}
+.delivery-container {
+  margin-left: 100px;
+}
+.delivery-card {
+  height: 324px;
+  background-color: rgba(252, 252, 252, 1);
+  padding: 40px;
+  padding-bottom: 42px;
+  margin-top: 64px;
+}
+.delivery-card-description {
+  width: 380px;
+  margin: 0;
+  margin-bottom: 32px;
+}
+.delivery-container-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+.label-data {
+  width: 115px;
+  height: 46px;
+  padding: 0;
+  border: 1px solid rgba(185, 185, 185, 1);
+  margin-right: 16px;
+}
+.label-phone {
+  width: 285px;
+  height: 46px;
+  border: 1px solid rgba(185, 185, 185, 1);
+  padding: 0;
+}
+.delivery-container-form p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.delivery-form-adress {
+  margin: 0;
+}
+.label-adress {
+  width: 418px;
+  height: 48px;
+  border: 1px solid rgba(185, 185, 185, 1);
+  padding: 0;
+  margin-bottom: 32px;
+}
+.delivery-form-button {
+  padding: 12px 32px;
+  border: 1px;
+  width: 152px;
+  background-color: rgba(255, 47, 100, 1);
+  color: white;
+  height: 44px;
+  display: block;
+  margin: 0 auto;
+}
+.adress-card {
+  background-image: url(../images/three-icecream.jpg);
+  padding: 64px 0;
+  background-size: cover;
+}
+.adress-card-description {
+  width: 179px;
+  margin: 0;
+  margin-bottom: 12px;
+}
+.adress-card-date {
+  padding: 40px;
+  background-color: rgba(252, 252, 252, 1);
+  width: 263px;
+  display: flex;
+  flex-direction: column;
+  height: 284px;
+  margin-left: 64px;
+}
+.phone-description {
+  width: 203px;
+}
+.adress-link {
+  margin-bottom: 24px;
+}
+.adress-card-date .button-link {
+  margin: 0;
+  width: 186px;
+  background-color: rgba(255, 47, 100, 1);
+  color: white;
+  height: 20px;
+  display: block;
+}
+.adress-number-description {
+  margin-bottom: 32px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+.main-footer {
+  padding: 48px 0;
+}
+.provider-list {
+  display: grid;
+  grid-template-columns: 126px 182px;
+  column-gap: 24px;
+  padding: 0;
+  row-gap: 8px;
+}
+.provider-list-item {
+  height: 20px;
+}
+.studuio-description {
+  margin: 0;
+}
+.button-container {
+  margin-top: 17px;
+}
+.pagination-show-more {
+  display: block;
+  width: 179px;
+  height: 44px;
+  background-color: rgba(252, 252, 252, 1);
+}
+.pagination-link {
+  color: black;
+  text-decoration: none;
+  padding: 2px 7px;
+}
+.pagination-current {
+  background-color: rgba(252, 252, 252, 1);
+  border-radius: 50%;
+}
+.breadcrumbs-link {
+  text-decoration: none;
+}
+.breadcrumbs-link-current {
+  border-bottom: 1px solid #2d3440;
+}
+input.price {
+  width: 23px;
+  padding: 0;
+  border: 0;
+  background-color: #feafc3;
+  color: #2d3440;
+}
+.catalog-filter-list {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.catalog-filter-group {
+  height: 64px;
+  padding: 0;
+  border: 0;
+  margin-right: 24px;
+}
+.catalog-filter-title {
+  margin-bottom: 8px;
+}
+.form-container {
+  display: flex;
+  margin-bottom: 16px;
+}
+.filler .button {
+  display: block;
+  width: 185px;
+  height: 36px;
+}
+.form-container.filler {
+  margin-bottom: 44px;
+}
