@@ -729,3 +729,42 @@ row-gap: 8px;
   background-color: rgba(252, 252, 252, 1);
   border-radius: 50%;
 }
+.breadcrumbs-link{
+  text-decoration: none;
+}
+.breadcrumbs-link-current{
+  border-bottom:1px solid #2d3440;
+}
+input.price{
+  width: 23px;
+  padding: 0;
+  border: 0;
+  background-color:#feafc3;
+  color: #2d3440;;
+}
+.catalog-filter-list{
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.catalog-filter-group{
+  height: 64px;
+  padding: 0;
+  border: 0;margin-right: 24px;
+}
+.catalog-filter-title{
+  margin-bottom: 8px;
+}
+.form-container{
+  display: flex;
+  margin-bottom: 16px;
+}
+.filler .button{
+  display: block;
+  width: 185px;
+  height: 36px;
+}
+.form-container.filler{
+  margin-bottom: 44px;
+}
