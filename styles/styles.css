@@ -571,9 +571,8 @@ margin-right: 14px;
 padding-left: 16px;
 }
 .newsleter-button{
-  padding: 0;
-  border: 1px;
   padding: 12px 32px;
+  border: 1px;
   width: 152px;
   background-color: rgba(255, 47, 100, 1);
   color: white;
