@@ -253,7 +253,7 @@ body {
   width: 420px;
 }
 .adress-card {
-  width: 343px;
+  width: 1170px;
 }
 .main-footer {
   display: flex;
@@ -650,4 +650,40 @@ margin-bottom: 20px;
   height: 44px;
   display: block;
   margin: 0 auto;
+}
+.adress-card{
+background-image: url(../images/three-icecream.jpg);
+padding: 64px 0;
+background-size: cover;
+}
+.adress-card-description{
+width: 179px;
+margin: 0;
+margin-bottom: 12px;
+}
+.adress-card-date{
+  padding: 40px;
+  background-color: rgba(252, 252, 252, 1);
+width: 263px;
+display: flex;
+flex-direction: column;
+height: 284px;
+margin-left: 64px;
+}
+.phone-description{
+  width: 203px;
+}
+.adress-link{
+  margin-bottom: 24px;
+}
+.adress-card-date .button-link{
+  margin: 0;
+  width: 186px;
+    background-color: rgba(255, 47, 100, 1);
+  color: white;
+  height: 20px;
+  display: block;
+}
+.adress-number-description{
+  margin-bottom: 32px;
 }
