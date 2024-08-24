@@ -462,3 +462,43 @@ section:last-child{
 .present-list-item-inner .button-link{
   margin: 0;
 }
+.popular-title{
+  width: 527px;
+  margin: 0 auto;
+  margin-bottom: 56px;
+}
+.popular-icecream-list-item-description{
+  width: 190px;
+  margin-top: 0;
+}
+.popular-icecream-list-item{
+  display: flex;
+  flex-direction: column;
+align-items: center;
+padding-left: 40px;
+padding-bottom: 24px;
+padding-right: 40px;
+background-color:rgba(252, 252, 252, 1);
+}
+.popular-icecream-title{
+  margin: 0;
+  margin-bottom: 8px;
+}
+.popular-icecream-image{
+  border-radius: 50%;
+
+}
+.price-container{
+  display: flex;
+  justify-content: space-between;
+  width: 190px;
+}
+.popular-icecream-link{
+  width: 32px;
+  height: 32px;
+  background-color: rgba(255, 47, 100, 1);
+}
+.popular-icecream-image-link{
+  height: 168px;
+  margin-bottom:16px ;
+}
