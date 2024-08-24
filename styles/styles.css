@@ -236,7 +236,8 @@ body {
   display: flex;
 }
 .news {
-  width: 570px;
+  width: 538px;
+  height: 224px;
 }
 .news:first-child {
   margin-right: 30px;
@@ -521,4 +522,62 @@ padding: 24px;
 .about-list-item{
   height: 66px;
   margin-bottom: 40px;
+}
+.news{
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/back-icecream.png);
+  background-repeat:no-repeat;
+  background-size: 115%;
+  background-position-x:-5px;
+  background-position-y:-110px;
+  padding-left: 32px;
+  flex-shrink: 0;
+}
+.news-link{
+  width: 303px;
+}
+.news-comment{
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+.news-email-container{
+  background-color: aliceblue;
+  padding: 26px;
+  width: 506px;
+  margin:6px;
+}
+.news-email{
+  background-image: url(../images/back-line.png);
+
+background-size: cover;
+width: 570px;
+height: 224px;
+background-repeat: no-repeat;
+}
+.news-description{
+  margin: 0;
+  margin-bottom: 42px;
+  width: 506px;
+}
+.newslater-input-form{
+width: 316px;
+height: 48px;
+border: 1px;
+padding: 0;
+margin-top: 2px;
+margin-bottom: 2px;
+margin-right: 14px;
+padding-left: 16px;
+}
+.newsleter-button{
+  padding: 0;
+  border: 1px;
+  padding: 12px 32px;
+  width: 152px;
+  background-color: rgba(255, 47, 100, 1);
+  color: white;
+}
+aside{
+  margin-bottom: 80px;
 }
