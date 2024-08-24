@@ -181,8 +181,9 @@ body {
   width: 420px;
 }
 .logo-link {
-  width: 137px;
-  margin-right: 16px;
+margin-bottom: 14px;
+  display: block;
+  height: 27px;
 }
 .navigation-list.navigation-user {
   margin-left: auto;
@@ -256,7 +257,6 @@ body {
   width: 1170px;
 }
 .main-footer {
-  display: flex;
   width: 1170px;
   margin: 0 auto;
 }
@@ -271,7 +271,6 @@ padding: 0;
   margin: 0;
   list-style: none;
   width: 356px;
-  margin-right: 259px;
 }
 .studuio-card {
   width: 193px;
@@ -686,4 +685,24 @@ margin-left: 64px;
 }
 .adress-number-description{
   margin-bottom: 32px;
+}
+.footer-container{
+  display: flex;
+justify-content: space-between;
+}
+.main-footer{
+  padding: 48px 0;
+}
+.provider-list{
+display: grid;
+grid-template-columns: 126px 182px;
+column-gap: 24px;
+padding: 0;
+row-gap: 8px;
+}
+.provider-list-item{
+  height: 20px;
+}
+.studuio-description{
+  margin: 0;
 }
