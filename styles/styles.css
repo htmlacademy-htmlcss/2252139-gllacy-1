@@ -250,7 +250,7 @@ body {
   margin-right: 135px;
 }
 .delivery-card {
-  width: 500px;
+  width: 420px;
 }
 .adress-card {
   width: 343px;
@@ -542,7 +542,7 @@ padding: 24px;
   margin-bottom: 12px;
 }
 .news-email-container{
-  background-color: aliceblue;
+  background-color: rgba(251, 251, 251, 1);
   padding: 26px;
   width: 506px;
   margin:6px;
@@ -563,12 +563,12 @@ background-repeat: no-repeat;
 .newslater-input-form{
 width: 316px;
 height: 48px;
-border: 1px;
 padding: 0;
 margin-top: 2px;
 margin-bottom: 2px;
 margin-right: 14px;
 padding-left: 16px;
+border: 1px solid rgba(185, 185, 185, 1);
 }
 .newsleter-button{
   padding: 12px 32px;
@@ -579,4 +579,75 @@ padding-left: 16px;
 }
 aside{
   margin-bottom: 80px;
+}
+.delivery{
+  background-image: url(../images/back-many-food.png);
+  height: 534px;
+  background-repeat: no-repeat;
+
+}
+.delivery-title{
+  margin: 0;
+  margin-bottom: 24px;
+  width: 356px;
+  margin-top: 167px;
+}
+.delivery-description{
+  margin: 0;
+}
+.delivery-container{
+  margin-left: 100px;
+}
+.delivery-card{
+  height: 324px;
+  background-color: rgba(252, 252, 252, 1);
+  padding: 40px;
+  padding-bottom: 42px;
+  margin-top: 64px;
+}
+.delivery-card-description{
+  width: 380px;
+  margin: 0;
+  margin-bottom: 32px;
+}
+.delivery-container-form{
+display: flex;
+margin-bottom: 20px;
+}
+.label-data{
+  width: 115px;
+  height: 46px;
+  padding: 0;
+  border: 1px solid rgba(185, 185, 185, 1);
+  margin-right: 16px;
+}
+.label-phone{
+  width: 285px;
+  height: 46px;
+  border: 1px solid rgba(185, 185, 185, 1);
+  padding: 0;
+}
+.delivery-container-form p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.delivery-form-adress{
+  margin: 0;
+}
+.label-adress{
+  width: 418px;
+  height: 48px;
+  border: 1px solid rgba(185, 185, 185, 1);
+  padding: 0;
+  margin-bottom: 32px;
+}
+.delivery-form-button{
+    padding: 12px 32px;
+  border: 1px;
+  width: 152px;
+  background-color: rgba(255, 47, 100, 1);
+  color: white;
+  height: 44px;
+  display: block;
+  margin: 0 auto;
 }
