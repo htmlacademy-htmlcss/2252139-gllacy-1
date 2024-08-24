@@ -287,11 +287,14 @@ padding: 0;
 }
 .about-description {
   width: 442px;
+  height: 66px;
+  margin: 0;
 }
 .about-description-image {
   width: 48px;
   display: block;
   margin-right: 16px;
+  height: 48px;
 }
 .about-list-item:nth-child(2) {
   margin-right: 0;
@@ -501,4 +504,21 @@ background-color:rgba(252, 252, 252, 1);
 .popular-icecream-image-link{
   height: 168px;
   margin-bottom:16px ;
+}
+.about{
+  background-image: url(../images/waffle.png);
+padding: 24px;
+}
+.about-container{
+  background-color: aliceblue;
+  padding-top: 56px;
+  padding-bottom: 16px;
+}
+.about-title{
+  margin-top: 0;
+  margin-bottom: 56px;
+}
+.about-list-item{
+  height: 66px;
+  margin-bottom: 40px;
 }
