@@ -211,6 +211,7 @@ body {
   margin: 0;
   list-style: none;
   display: flex;
+  padding: 0;
 }
 .present-list-item {
   width: 570px;
@@ -223,13 +224,8 @@ body {
   display: flex;
   margin: 0;
   list-style: none;
-}
-.popular-icecream-list-item {
-  margin-right: 30px;
-  margin-bottom: 40px;
-}
-.popular-icecream-list-item:nth-child(4n) {
-  margin-right: 0;
+  padding: 0;
+  column-gap: 30px;
 }
 .all-news {
   display: flex;
@@ -319,11 +315,13 @@ body {
   margin-right: 0;
 }
 .product-list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4,270px);
+  gap: 40px 30px;
   margin: 0;
   list-style: none;
   padding: 0;
+  margin-bottom: 57px;
 }
 .button-container {
   display: flex;
@@ -697,9 +695,6 @@ aside {
 }
 .studuio-description {
   margin: 0;
-}
-.button-container {
-  margin-top: 17px;
 }
 .pagination-show-more {
   display: block;
