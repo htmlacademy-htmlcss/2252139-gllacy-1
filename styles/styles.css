@@ -260,6 +260,8 @@ body {
   margin: 0;
   display: flex;
   padding: 0;
+  flex-direction: row-reverse;
+  gap: 16px;
 }
 .provider-list {
   margin: 0;
@@ -437,6 +439,8 @@ border-radius: 50%;
   padding: 12px 32px;
   background-color: rgba(252, 252, 252, 1);
   margin-bottom: 126px;
+  border: 4px solid rgba(252, 252, 252, 0.4);
+  border-radius: 26px;
 }
 .first-demonstration-icecream-container {
   height: 554px;
@@ -775,4 +779,72 @@ input.price {
 .basket-navigation{
 margin-right: 6px;
 transform: translateY(3px);
+}
+.slider-button{
+  padding: 11px;
+  background-color: rgba(252, 252, 252, 0.3);
+  border:2px solid rgba(252, 252, 252, 1) ;
+  border-radius: 26px;
+}
+.arrow-prev{
+  transform: rotate(-180deg);
+
+}
+.slider-pagination-button{
+padding: 6px;
+border-radius: 50%;
+border: 0;
+background-color: rgba(252, 252, 252, 0.3);
+}
+.slider-pagination{
+  gap: 8px;
+}
+.slider-pagination-button-current{
+  background-color: rgba(252, 252, 252, 1);
+}
+.social-icon{
+border: 2px solid rgba(252, 252, 252, 0.3);
+border-radius: 24px;
+}
+.slider-image-curent {
+z-index: 2;
+}
+.under-image-current{
+  width: 327px;
+  height: 312px;
+  position: absolute;
+  background-color: rgba(255, 203, 216, 1);
+  transform: translate(42px);
+  border-radius: 50%;
+}
+.slider-button{
+  z-index: 2;
+}
+.slider-next{
+  margin-right: 37px;
+}
+.slider-image:nth-child(2n){
+  margin-right: 71px;
+}
+.slider-image{
+  opacity: 40%;
+  z-index: 2;
+}
+.under-image-first{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background-color: rgba(255, 203, 216, 1);
+  opacity: 0.4;
+  border-radius: 50%;
+  transform: translate(430px);
+}
+.under-image-two{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background-color: rgba(255, 203, 216, 1);
+  opacity: 0.4;
+  border-radius: 50%;
+  transform: translate(565px);
 }
