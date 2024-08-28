@@ -366,18 +366,34 @@ body {
 }
 .navigation-user .nav-link {
   padding: 6px 16px;
+  display: block;
 }
+.navigation-user .navigation-item:nth-child(3){
+background-color: rgba(252, 252, 252, 0.3) ;
+border-radius: 30px;
+}
+.navigation-user .navigation-item:nth-child(4){
+background-color: rgba(252, 252, 252, 0.3) ;
+border-radius: 30px;
+}
+
 .navigation-user .navigation-item {
   margin-right: 16px;
+  font-size: 14px;
 }
 .navigation-user .navigation-item:last-child {
   margin-right: 0;
 }
 .nav-link.contacts-phone {
   padding: 0;
+  font-size: 16px;
 }
 .nav-link.search {
   padding: 8px;
+  background-color: rgba(252, 252, 252, 0.3) ;
+  display:inline-block;
+  height: 16px;
+border-radius: 50%;
 }
 .slide {
   display: none;
@@ -750,4 +766,13 @@ input.price {
 }
 .form-container.filler {
   margin-bottom: 44px;
+}
+.entrance-navigation{
+  margin-right: 6px;
+  display:inline-block;
+  transform: translateY(3px);
+}
+.basket-navigation{
+margin-right: 6px;
+transform: translateY(3px);
 }
