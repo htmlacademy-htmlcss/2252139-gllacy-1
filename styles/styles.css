@@ -441,6 +441,11 @@ border-radius: 50%;
   margin-bottom: 126px;
   border: 4px solid rgba(252, 252, 252, 0.4);
   border-radius: 26px;
+  box-shadow:  0 4px 12px 0 rgba(45, 52, 64, 0.1);
+}
+.present-list .button-link{
+background: #fff;
+box-shadow: 0 0 0 4px rgba(252, 252, 252, 0.4);
 }
 .first-demonstration-icecream-container {
   height: 554px;
@@ -465,6 +470,7 @@ section:last-child {
 .present-list-item {
   display: flex;
   background-color: rgba(255, 119, 153, 1);
+border-radius: 16px;
 }
 .present-list-item-title {
   margin-top: 36px;
@@ -847,4 +853,18 @@ z-index: 2;
   opacity: 0.4;
   border-radius: 50%;
   transform: translate(565px);
+}
+.popular-icecream-list-item-description{
+  text-align: center;
+}
+.product-price{align-self: center;}
+.popular-icecream-list-item{
+  border-radius: 8px;
+}
+.popular-icecream-link{
+background-image: url(../images/basket-white.svg);
+background-repeat: no-repeat;
+background-size: 16px 16px ;
+background-position: 50% 50%;
+border-radius: 50%;
 }
