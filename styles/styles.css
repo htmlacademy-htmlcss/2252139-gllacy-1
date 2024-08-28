@@ -486,7 +486,7 @@ border-radius: 16px;
 .popular-title {
   width: 527px;
   margin: 0 auto;
-  margin-bottom: 56px;
+  margin-bottom: 107px;
 }
 .popular-icecream-list-item-description {
   width: 190px;
@@ -867,4 +867,10 @@ background-repeat: no-repeat;
 background-size: 16px 16px ;
 background-position: 50% 50%;
 border-radius: 50%;
+}
+.popular-icecream-image{
+  margin-top: -51px;
+}
+.popular-icecream-image-link{
+margin-bottom: -35px;
 }
