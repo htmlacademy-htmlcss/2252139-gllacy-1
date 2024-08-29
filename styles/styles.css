@@ -609,7 +609,7 @@ aside {
   background-repeat: no-repeat;
   border-radius: 16px;
   background-size: 100%;
-  background-position:10px -120px;
+  background-position:0 -120px;
   transform: scaleX(-1);
   flex-direction: row-reverse;
 }
@@ -682,6 +682,9 @@ width: 420px;
   background-image: url(../images/three-icecream.jpg);
   padding: 64px 0;
   background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  background-position: 0 -80px;
 }
 .adress-card-description {
   width: 179px;
@@ -696,6 +699,7 @@ width: 420px;
   flex-direction: column;
   height: 284px;
   margin-left: 64px;
+  border-radius: 16px;
 }
 .phone-description {
   width: 203px;
