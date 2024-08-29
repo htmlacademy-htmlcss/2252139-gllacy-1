@@ -309,9 +309,10 @@ body {
   width: 335px;
   margin: 0;
   list-style: none;
+  padding: 0;
 }
 .breadcrumbs-item {
-  margin-right: 28px;
+  margin-right: 8px;
 }
 .breadcrumbs-item:last-child {
   margin-right: 0;
@@ -319,11 +320,12 @@ body {
 .product-list {
   display: grid;
   grid-template-columns: repeat(4,270px);
-  gap: 40px 30px;
+  gap: 91px 30px;
   margin: 0;
   list-style: none;
   padding: 0;
   margin-bottom: 57px;
+  margin-top: 51px;
 }
 .button-container {
   display: flex;
@@ -927,4 +929,19 @@ margin-left: 4px;
   margin-top: 4px;
   margin-right: 8px;
 
+}
+.cotolog-container{
+border: 0;
+background-color: #feafc3;
+padding: 0;
+color: #2d3440;
+font-size: 16px;
+font-family:"Inter" ;
+padding: 8px 16px;
+}
+.navigation-item:first-child a{
+  padding-right: 0;
+}
+.arrow-bottom{
+  margin-left: 9px;
 }
