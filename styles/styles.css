@@ -444,6 +444,7 @@ border-radius: 50%;
   border-radius: 26px;
   box-shadow:  0 4px 12px 0 rgba(45, 52, 64, 0.1);
 }
+.collector .button-link,
 .present-list .button-link{
 background: #fff;
 box-shadow: 0 0 0 4px rgba(252, 252, 252, 0.4);
@@ -918,4 +919,12 @@ box-sizing: border-box;
   background-color: rgba(252, 252, 252, 1);
 transform: translateY(3px);
 margin-left: 4px;
+}
+.heart-container{
+  display: flex;
+}
+.heart{
+  margin-top: 4px;
+  margin-right: 8px;
+
 }
