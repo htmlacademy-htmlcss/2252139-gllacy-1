@@ -607,6 +607,11 @@ aside {
   background-image: url(../images/back-many-food.png);
   height: 534px;
   background-repeat: no-repeat;
+  border-radius: 16px;
+  background-size: 100%;
+  background-position:10px -120px;
+  transform: scaleX(-1);
+  flex-direction: row-reverse;
 }
 .delivery-title {
   margin: 0;
@@ -619,13 +624,16 @@ aside {
 }
 .delivery-container {
   margin-left: 100px;
+  transform: scaleX(-1);
 }
 .delivery-card {
+  border-radius: 8px;
   height: 324px;
   background-color: rgba(252, 252, 252, 1);
   padding: 40px;
   padding-bottom: 42px;
   margin-top: 64px;
+  transform: scaleX(-1);
 }
 .delivery-card-description {
   width: 380px;
@@ -637,15 +645,13 @@ aside {
   margin-bottom: 20px;
 }
 .label-data {
-  width: 115px;
-  height: 46px;
-  padding: 0;
+  width: 117px;
+  padding: 14px 16px;
   border: 1px solid rgba(185, 185, 185, 1);
   margin-right: 16px;
 }
 .label-phone {
-  width: 285px;
-  height: 46px;
+width: 287px;
   border: 1px solid rgba(185, 185, 185, 1);
   padding: 0;
 }
@@ -657,8 +663,7 @@ aside {
   margin: 0;
 }
 .label-adress {
-  width: 418px;
-  height: 48px;
+width: 420px;
   border: 1px solid rgba(185, 185, 185, 1);
   padding: 0;
   margin-bottom: 32px;
@@ -881,10 +886,32 @@ border-radius: 50%;
 .popular-icecream-image-link{
 margin-bottom: -35px;
 }
-.button{
+.delivery-form-button,
+.newsleter-button{
   padding: 12px 32px;
   border-radius: 26px;
   font-weight: 700;
   background: rgb(255, 47, 100);
   box-shadow:  0 0 0 4px rgba(255, 47, 100, 0.4);
+}
+.info{
+
+transform: translate(-4px,-1px);
+}
+.delivery-card .form-label{
+  margin-bottom: 8px;
+  display: block;
+}
+.delivery-card .label{
+  padding: 14px 16px;
+box-sizing: border-box;
+}
+.button-info{
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 0;
+  background-color: rgba(252, 252, 252, 1);
+transform: translateY(3px);
+margin-left: 4px;
 }
