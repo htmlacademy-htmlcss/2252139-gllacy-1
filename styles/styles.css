@@ -169,6 +169,7 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #2d3440;
+
 }
 .navigation {
   display: flex;
@@ -782,6 +783,8 @@ input.price {
 }
 .catalog-filter-title {
   margin-bottom: 8px;
+  padding: 0;
+  margin-left: 16px;
 }
 .form-container {
   display: flex;
@@ -948,4 +951,68 @@ content: url(../images/duble-arrow.svg);
 margin-right: 6px;
 bottom: 1px;
 position: relative;
+}
+.select-control{
+  background-color:rgba(252, 252, 252, 0.3);
+  border: 0;
+  width: 196px;
+  font-family: "Inter";
+  font-size: 14px;
+  color: #2d3440;
+  box-sizing: border-box;
+  padding: 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  border-radius: 20px;
+  padding-right: 10px;
+  height: 36px;
+}
+.select-control option{
+  padding: 10px;
+}
+.input-range{
+margin: 0;
+width: 164px;
+box-sizing: border-box;
+}
+.input-range-container{
+  padding: 10px 16px;
+  background-color: rgba(252, 252, 252, 0.3);
+  border-radius: 20px;
+  height: 16px;
+}
+input[type=range]{
+  height: 16px;
+}
+.catalog-filter-list-first{
+background-color: rgba(252, 252, 252, 0.3);
+width: 389px;
+box-sizing:border-box;
+padding: 8px 24px;
+border-radius: 18px;
+}
+.catalog-filter-list .catalog-filter-item{
+  margin-right: 16px;
+}
+.catalog-filter-list .catalog-filter-item:last-child{
+  margin-right: 0;
+}
+.catalog-filter-list-two{
+  width: 605px;
+  box-sizing: border-box;
+  padding: 10px 24px;
+  background-color: rgba(252, 252, 252, 0.3);
+  border-radius: 18px;
+}
+.filler .button{
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 700;
+  border: 2px solid rgba(252, 252, 252, 1);
+  background-color: rgba(252, 252, 252, 0.3);
+  border-radius: 20px;
+  color: #2d3440;
+  padding: 0;
+  align-self: flex-end;
 }

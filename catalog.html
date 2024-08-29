@@ -61,18 +61,18 @@
               <fieldset class="catalog-filter-group">
                 <legend class="catalog-filter-title">Сортировка:</legend>
                 <select class="select-control" aria-label="Сортировка">
-                  <option value="popular">Сначала популярное</option>
+                  <option value="popular">по популярности</option>
                 </select>
               </fieldset>
               <fieldset class="catalog-filter-group">
                 <legend class="catalog-filter-title">Цена: <input type="text" value="100" class="price"> ₽ – <input
                     type="text" value="500" class="price"> ₽
                 </legend>
-                <input type="range" min="100" max="500" step="1" value="50">
+                <div class="input-range-container"><input type="range" min="100" max="500" step="1" value="50" class="input-range"></div>
               </fieldset>
               <fieldset class="catalog-filter-group">
                 <legend class="catalog-filter-title ">Жирность:</legend>
-                <ul class="catalog-filter-list">
+                <ul class="catalog-filter-list catalog-filter-list-first">
                   <li class="catalog-filter-item">
                     <label class="control">
                       <input class="control-input" type="radio" name="product-group" value="shaving-supplies">
@@ -107,7 +107,7 @@
             <div class="form-container filler">
               <fieldset class="catalog-filter-group">
                 <legend class="catalog-filter-title">Наполнители:</legend>
-                <ul class="catalog-filter-list">
+                <ul class="catalog-filter-list catalog-filter-list-two">
                   <li class="catalog-filter-item">
                     <label class="control">
                       <input class="control-input" type="checkbox" name="bed-head-for-men" checked>
