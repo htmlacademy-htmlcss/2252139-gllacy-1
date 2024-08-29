@@ -330,6 +330,8 @@ body {
 .button-container {
   display: flex;
   justify-content: flex-end;
+  margin-bottom: 81px;
+
 }
 .pagination {
   display: flex;
@@ -727,6 +729,10 @@ width: 420px;
 }
 .main-footer {
   padding: 48px 0;
+
+}
+.inner-footer{
+ border-top: 1px solid rgba(252, 252, 252, 0.3);
 }
 .provider-list {
   display: grid;
@@ -740,6 +746,7 @@ width: 420px;
 }
 .studuio-description {
   margin: 0;
+  color: #2d3440;
 }
 .pagination-show-more {
   display: block;
