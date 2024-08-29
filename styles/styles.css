@@ -260,6 +260,8 @@ body {
   margin: 0;
   display: flex;
   padding: 0;
+  flex-direction: row-reverse;
+  gap: 16px;
 }
 .provider-list {
   margin: 0;
@@ -304,35 +306,37 @@ body {
 }
 .breadcrumbs {
   display: flex;
-  width: 335px;
   margin: 0;
   list-style: none;
+  padding: 0;
 }
 .breadcrumbs-item {
-  margin-right: 28px;
+  margin-right: 10.5px;
 }
 .breadcrumbs-item:last-child {
   margin-right: 0;
 }
 .product-list {
   display: grid;
-  grid-template-columns: repeat(4,270px);
-  gap: 40px 30px;
+  grid-template-columns: repeat(4, 270px);
+  gap: 91px 30px;
   margin: 0;
   list-style: none;
   padding: 0;
   margin-bottom: 57px;
+  margin-top: 51px;
 }
 .button-container {
   display: flex;
   justify-content: flex-end;
+  margin-bottom: 81px;
 }
 .pagination {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
-
+  align-self: center;
   margin-left: 335px;
 }
 .catalog-filter {
@@ -366,18 +370,34 @@ body {
 }
 .navigation-user .nav-link {
   padding: 6px 16px;
+  display: block;
 }
+.navigation-user .navigation-item:nth-child(3) {
+  background-color: rgba(252, 252, 252, 0.3);
+  border-radius: 30px;
+}
+.navigation-user .navigation-item:nth-child(4) {
+  background-color: rgba(252, 252, 252, 0.3);
+  border-radius: 30px;
+}
+
 .navigation-user .navigation-item {
   margin-right: 16px;
+  font-size: 14px;
 }
 .navigation-user .navigation-item:last-child {
   margin-right: 0;
 }
 .nav-link.contacts-phone {
   padding: 0;
+  font-size: 16px;
 }
 .nav-link.search {
   padding: 8px;
+  background-color: rgba(252, 252, 252, 0.3);
+  display: inline-block;
+  height: 16px;
+  border-radius: 50%;
 }
 .slide {
   display: none;
@@ -417,10 +437,19 @@ body {
   margin-top: 0;
   margin-bottom: 60px;
 }
+
 .button-link {
   padding: 12px 32px;
   background-color: rgba(252, 252, 252, 1);
   margin-bottom: 126px;
+  border: 4px solid rgba(252, 252, 252, 0.4);
+  border-radius: 26px;
+  box-shadow: 0 4px 12px 0 rgba(45, 52, 64, 0.1);
+}
+.collector .button-link,
+.present-list .button-link {
+  background: #fff;
+  box-shadow: 0 0 0 4px rgba(252, 252, 252, 0.4);
 }
 .first-demonstration-icecream-container {
   height: 554px;
@@ -445,6 +474,7 @@ section:last-child {
 .present-list-item {
   display: flex;
   background-color: rgba(255, 119, 153, 1);
+  border-radius: 16px;
 }
 .present-list-item-title {
   margin-top: 36px;
@@ -460,7 +490,7 @@ section:last-child {
 .popular-title {
   width: 527px;
   margin: 0 auto;
-  margin-bottom: 56px;
+  margin-bottom: 107px;
 }
 .popular-icecream-list-item-description {
   width: 190px;
@@ -499,11 +529,13 @@ section:last-child {
 .about {
   background-image: url(../images/waffle.png);
   padding: 24px;
+  background-size: 100% 100%;
 }
 .about-container {
   background-color: aliceblue;
   padding-top: 56px;
   padding-bottom: 16px;
+  border-radius: 16px;
 }
 .about-title {
   margin-top: 0;
@@ -519,10 +551,11 @@ section:last-child {
   background-image: url(../images/back-icecream.png);
   background-repeat: no-repeat;
   background-size: 115%;
-  background-position-x: -5px;
+  background-position-x: -15px;
   background-position-y: -110px;
   padding-left: 32px;
   flex-shrink: 0;
+  border-radius: 16px;
 }
 .news-link {
   width: 303px;
@@ -536,11 +569,12 @@ section:last-child {
   padding: 26px;
   width: 506px;
   margin: 6px;
+  border-radius: 16px;
 }
 .news-email {
   background-image: url(../images/back-line.png);
 
-  background-size: cover;
+  background-size: 100% 100%;
   width: 570px;
   height: 224px;
   background-repeat: no-repeat;
@@ -556,9 +590,10 @@ section:last-child {
   padding: 0;
   margin-top: 2px;
   margin-bottom: 2px;
-  margin-right: 14px;
+  margin-right: 10px;
   padding-left: 16px;
   border: 1px solid rgba(185, 185, 185, 1);
+  border-radius: 3px;
 }
 .newsleter-button {
   padding: 12px 32px;
@@ -574,6 +609,11 @@ aside {
   background-image: url(../images/back-many-food.png);
   height: 534px;
   background-repeat: no-repeat;
+  border-radius: 16px;
+  background-size: 100%;
+  background-position: 0 -120px;
+  transform: scaleX(-1);
+  flex-direction: row-reverse;
 }
 .delivery-title {
   margin: 0;
@@ -586,13 +626,16 @@ aside {
 }
 .delivery-container {
   margin-left: 100px;
+  transform: scaleX(-1);
 }
 .delivery-card {
+  border-radius: 8px;
   height: 324px;
   background-color: rgba(252, 252, 252, 1);
   padding: 40px;
   padding-bottom: 42px;
   margin-top: 64px;
+  transform: scaleX(-1);
 }
 .delivery-card-description {
   width: 380px;
@@ -604,15 +647,13 @@ aside {
   margin-bottom: 20px;
 }
 .label-data {
-  width: 115px;
-  height: 46px;
-  padding: 0;
+  width: 117px;
+  padding: 14px 16px;
   border: 1px solid rgba(185, 185, 185, 1);
   margin-right: 16px;
 }
 .label-phone {
-  width: 285px;
-  height: 46px;
+  width: 287px;
   border: 1px solid rgba(185, 185, 185, 1);
   padding: 0;
 }
@@ -624,8 +665,7 @@ aside {
   margin: 0;
 }
 .label-adress {
-  width: 418px;
-  height: 48px;
+  width: 420px;
   border: 1px solid rgba(185, 185, 185, 1);
   padding: 0;
   margin-bottom: 32px;
@@ -644,6 +684,9 @@ aside {
   background-image: url(../images/three-icecream.jpg);
   padding: 64px 0;
   background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  background-position: 0 -80px;
 }
 .adress-card-description {
   width: 179px;
@@ -658,6 +701,7 @@ aside {
   flex-direction: column;
   height: 284px;
   margin-left: 64px;
+  border-radius: 16px;
 }
 .phone-description {
   width: 203px;
@@ -683,6 +727,9 @@ aside {
 .main-footer {
   padding: 48px 0;
 }
+.inner-footer {
+  border-top: 1px solid rgba(252, 252, 252, 0.3);
+}
 .provider-list {
   display: grid;
   grid-template-columns: 126px 182px;
@@ -695,6 +742,7 @@ aside {
 }
 .studuio-description {
   margin: 0;
+  color: #2d3440;
 }
 .pagination-show-more {
   display: block;
@@ -710,6 +758,7 @@ aside {
 .pagination-current {
   background-color: rgba(252, 252, 252, 1);
   border-radius: 50%;
+  padding: 2px 8px;
 }
 .breadcrumbs-link {
   text-decoration: none;
@@ -738,6 +787,8 @@ input.price {
 }
 .catalog-filter-title {
   margin-bottom: 8px;
+  padding: 0;
+  margin-left: 16px;
 }
 .form-container {
   display: flex;
@@ -750,4 +801,275 @@ input.price {
 }
 .form-container.filler {
   margin-bottom: 44px;
+}
+.entrance-navigation {
+  margin-right: 6px;
+  display: inline-block;
+  transform: translateY(3px);
+}
+.basket-navigation {
+  margin-right: 6px;
+  transform: translateY(3px);
+}
+.slider-button {
+  padding: 11px;
+  background-color: rgba(252, 252, 252, 0.3);
+  border: 2px solid rgba(252, 252, 252, 1);
+  border-radius: 26px;
+}
+.arrow-prev {
+  transform: rotate(-180deg);
+}
+.slider-pagination-button {
+  padding: 6px;
+  border-radius: 50%;
+  border: 0;
+  background-color: rgba(252, 252, 252, 0.3);
+}
+.slider-pagination {
+  gap: 8px;
+}
+.slider-pagination-button-current {
+  background-color: rgba(252, 252, 252, 1);
+}
+.social-icon {
+  border: 2px solid rgba(252, 252, 252, 0.3);
+  border-radius: 24px;
+}
+.slider-image-curent {
+  z-index: 2;
+}
+.under-image-current {
+  width: 327px;
+  height: 312px;
+  position: absolute;
+  background-color: rgba(255, 203, 216, 1);
+  transform: translate(42px);
+  border-radius: 50%;
+}
+.slider-button {
+  z-index: 2;
+}
+.slider-next {
+  margin-right: 37px;
+}
+.slider-image:nth-child(2n) {
+  margin-right: 71px;
+}
+.slider-image {
+  opacity: 40%;
+  z-index: 2;
+}
+.under-image-first {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background-color: rgba(255, 203, 216, 1);
+  opacity: 0.4;
+  border-radius: 50%;
+  transform: translate(430px);
+}
+.under-image-two {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background-color: rgba(255, 203, 216, 1);
+  opacity: 0.4;
+  border-radius: 50%;
+  transform: translate(565px);
+}
+.popular-icecream-list-item-description {
+  text-align: center;
+}
+.product-price {
+  align-self: center;
+}
+.popular-icecream-list-item {
+  border-radius: 8px;
+}
+.popular-icecream-link {
+  background-image: url(../images/basket-white.svg);
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  background-position: 50% 50%;
+  border-radius: 50%;
+}
+.popular-icecream-image {
+  margin-top: -51px;
+}
+.popular-icecream-image-link {
+  margin-bottom: -35px;
+}
+.delivery-form-button,
+.newsleter-button {
+  padding: 12px 32px;
+  border-radius: 26px;
+  font-weight: 700;
+  background: rgb(255, 47, 100);
+  box-shadow: 0 0 0 4px rgba(255, 47, 100, 0.4);
+}
+.info {
+  transform: translate(-4px, -1px);
+}
+.delivery-card .form-label {
+  margin-bottom: 8px;
+  display: block;
+}
+.delivery-card .label {
+  padding: 14px 16px;
+  box-sizing: border-box;
+}
+.button-info {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 0;
+  background-color: rgba(252, 252, 252, 1);
+  transform: translateY(3px);
+  margin-left: 4px;
+}
+.heart-container {
+  display: flex;
+}
+.heart {
+  margin-top: 4px;
+  margin-right: 8px;
+}
+.cotolog-container {
+  border: 0;
+  background-color: #feafc3;
+  color: #2d3440;
+  font-size: 16px;
+  font-family: "Inter";
+  padding: 8px 16px;
+}
+.navigation-item:first-child a {
+  padding-right: 0;
+}
+.arrow-bottom {
+  margin-left: 9px;
+}
+.breadcrumbs-item:not(:first-child)::before {
+  content: url(../images/duble-arrow.svg);
+  margin-right: 6px;
+  bottom: 1px;
+  position: relative;
+}
+.select-control {
+  background-color: rgba(252, 252, 252, 0.3);
+  border: 0;
+  width: 196px;
+  font-family: "Inter";
+  font-size: 14px;
+  color: #2d3440;
+  box-sizing: border-box;
+  padding: 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  border-radius: 20px;
+  padding-right: 10px;
+  height: 36px;
+}
+.select-control option {
+  padding: 10px;
+}
+.input-range {
+  margin: 0;
+  width: 164px;
+  box-sizing: border-box;
+}
+.input-range-container {
+  padding: 10px 16px;
+  background-color: rgba(252, 252, 252, 0.3);
+  border-radius: 20px;
+  height: 16px;
+}
+input[type="range"] {
+  height: 16px;
+}
+.catalog-filter-list-first {
+  background-color: rgba(252, 252, 252, 0.3);
+  width: 389px;
+  box-sizing: border-box;
+  padding: 8px 24px;
+  border-radius: 18px;
+}
+.catalog-filter-list .catalog-filter-item {
+  margin-right: 16px;
+}
+.catalog-filter-list .catalog-filter-item:last-child {
+  margin-right: 0;
+}
+.catalog-filter-list-two {
+  width: 605px;
+  box-sizing: border-box;
+  padding: 10px 24px;
+  background-color: rgba(252, 252, 252, 0.3);
+  border-radius: 18px;
+}
+.filler .button {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 700;
+  border: 2px solid rgba(252, 252, 252, 1);
+  background-color: rgba(252, 252, 252, 0.3);
+  border-radius: 20px;
+  color: #2d3440;
+  padding: 0;
+  align-self: flex-end;
+}
+.pagination-show-more {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 700;
+  border: 0;
+  border-radius: 26px;
+  padding: 0;
+  color: #2d3440;
+  box-shadow: 0 0 0 4px rgba(252, 252, 252, 0.4);
+  background-color: rgba(252, 252, 252, 1);
+}
+.pagination-link {
+  color: #2d3440;
+  width: 24px;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 24px;
+}
+.not-active-arrow-left {
+  display: block;
+  transform: scale(-1);
+  opacity: 30%;
+}
+.not-active-arrow-right {
+  display: block;
+  opacity: 30%;
+}
+.arrow-left {
+  display: block;
+  transform: scale(-1);
+}
+.pagination-prev {
+  padding: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 4px;
+}
+.pagination-item {
+  height: 24px;
+}
+.pagination-item:first-child {
+  margin-right: 8px;
+}
+.pagination-next {
+  padding: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 4px;
+}
+.pagination-item:last-child {
+  margin-left: 8px;
 }

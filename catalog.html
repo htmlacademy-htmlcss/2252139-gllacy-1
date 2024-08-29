@@ -13,7 +13,8 @@
         <a href="index.html" class="logo-link"><img src="images/logo.svg" alt="Логотип Gllacy" class="logo" width="137"
             height="55.72"></a>
         <ul class="navigation-list">
-          <li class="navigation-item"> <a>Каталог</a>
+          <li class="navigation-item"> <button class="cotolog-container" type="button">Каталог<img
+                src="images/Arrow-black.svg" alt="стрелка вниз" width="11" height="6" class="arrow-bottom"></button>
             <!-- <ul>
                   <li><a href="#">Сливочное</a></li>
                   <li><a href="#">Щербеты</a></li>
@@ -27,10 +28,13 @@
         <ul class="navigation-list navigation-user">
           <li class="navigation-item"><a class="nav-link contacts-phone" href="tel:+78005558628">+7 800 555-86-28</a>
           </li>
-          <li class="navigation-item"><a href="" class="nav-link search"><span class="visually-hidden">Поиск</span></a>
+          <li class="navigation-item"><a href="" class="nav-link search"><span class="visually-hidden">Поиск</span><img
+                src="images/search.svg" class="search-navigation" width="16" height="16" alt="Поиск"></a>
           </li>
-          <li class="navigation-item"><a class="nav-link" href="">Вход</a></li>
-          <li class="navigation-item"><a class="nav-link" href="">2 товара</a></li>
+          <li class="navigation-item"><a class="nav-link" href=""><img src="images/entrance.svg" width="16" height="16"
+                class="entrance-navigation" alt="дверь">Вход</a></li>
+          <li class="navigation-item"><a class="nav-link" href=""><img src="images/basket.svg" class="basket-navigation"
+                width="16" height="16" alt="корзина">2 товара</a></li>
         </ul>
       </nav>
     </header>
@@ -42,10 +46,10 @@
               <a class="breadcrumbs-link" href="index.html">Главная</a>
             </li>
             <li class="breadcrumbs-item">
-              <a class="breadcrumbs-link">Каталог</a>
+              <a class="breadcrumbs-link" href="#">Каталог</a>
             </li>
             <li class="breadcrumbs-item">
-              <a class="breadcrumbs-link breadcrumbs-link-current">Сливочное мороженое</a>
+              <a class="breadcrumbs-link breadcrumbs-link-current" href="#">Сливочное мороженое</a>
             </li>
           </ul>
           <h1 class="main-title">Сливочное мороженое</h1>
@@ -57,18 +61,19 @@
               <fieldset class="catalog-filter-group">
                 <legend class="catalog-filter-title">Сортировка:</legend>
                 <select class="select-control" aria-label="Сортировка">
-                  <option value="popular">Сначала популярное</option>
+                  <option value="popular">по популярности</option>
                 </select>
               </fieldset>
               <fieldset class="catalog-filter-group">
                 <legend class="catalog-filter-title">Цена: <input type="text" value="100" class="price"> ₽ – <input
                     type="text" value="500" class="price"> ₽
                 </legend>
-                <input type="range" min="100" max="500" step="1" value="50">
+                <div class="input-range-container"><input type="range" min="100" max="500" step="1" value="50"
+                    class="input-range"></div>
               </fieldset>
               <fieldset class="catalog-filter-group">
                 <legend class="catalog-filter-title ">Жирность:</legend>
-                <ul class="catalog-filter-list">
+                <ul class="catalog-filter-list catalog-filter-list-first">
                   <li class="catalog-filter-item">
                     <label class="control">
                       <input class="control-input" type="radio" name="product-group" value="shaving-supplies">
@@ -103,7 +108,7 @@
             <div class="form-container filler">
               <fieldset class="catalog-filter-group">
                 <legend class="catalog-filter-title">Наполнители:</legend>
-                <ul class="catalog-filter-list">
+                <ul class="catalog-filter-list catalog-filter-list-two">
                   <li class="catalog-filter-item">
                     <label class="control">
                       <input class="control-input" type="checkbox" name="bed-head-for-men" checked>
@@ -285,7 +290,8 @@
             <ul class="pagination">
               <li class="pagination-item">
                 <a class="pagination-link pagination-prev pagination-disabled">
-                  <span class="visually-hidden">Предыдущая страница</span>
+                  <span class="visually-hidden">Предыдущая страница</span><img src="images/Arrow-right-black.svg"
+                    class="arrow-left not-active-arrow-left" alt="стрелка назад" width="16" height="16">
                 </a>
               </li>
               <li class="pagination-item">
@@ -305,7 +311,8 @@
               </li>
               <li class="pagination-item">
                 <a class="pagination-link pagination-next" href="#">
-                  <span class="visually-hidden">Следующая страница</span>
+                  <span class="visually-hidden">Следующая страница</span><img src="images/Arrow-right-black.svg"
+                    class="arrow-right " alt="стрелка назад" width="16" height="16">
                 </a>
               </li>
             </ul>
@@ -313,27 +320,33 @@
         </section>
       </div>
     </main>
-    <footer class="main-footer">
+    <footer class="main-footer inner-footer">
       <div class="footer-container">
         <ul class="social-list">
           <li class="social-item">
             <a class="button" href="https://www.youtube.com/user/htmlacademyru"> <span
-                class="visually-hidden">Юттуб</span>
+                class="visually-hidden">Юттуб</span><img src="images/youtube.svg" width="24" height="24"
+                alt="иконка ютуба" class="social-icon"> </a>
+          </li>
+          <li class="social-item">
+            <a class="button" href="https://vk.com/htmlacademy"> <span class="visually-hidden">ВКонтакте</span><img
+                src="images/vk.svg" alt="иконка вк" width="24" height="24" class="social-icon">
             </a>
           </li>
           <li class="social-item">
-            <a class="button" href="https://vk.com/htmlacademy"> <span class="visually-hidden">ВКонтакте</span> </a>
-          </li>
-          <li class="social-item">
-            <a class="button" href="https://t.me/htmlacademy"> <span class="visually-hidden">Телеграм</span> </a>
+            <a class="button" href="https://t.me/htmlacademy"> <span class="visually-hidden">Телеграм</span><img
+                src="images/telegram.svg" alt="иконка ютуба" width="24" height="24" class="social-icon"> </a>
           </li>
         </ul>
-        <ul class="provider-list">
-          <li class="provider-list-item"><a href="" class="provider-item-link">Для поставщиков</a></li>
-          <li class="provider-list-item"><a href="" class="provider-item-link">Наши документы</a></li>
-          <li class="provider-list-item"><a href="" class="provider-item-link">О производстве</a></li>
-          <li class="provider-list-item"><a href="" class="provider-item-link">Экологические стандарты</a></li>
         </ul>
+        <div class="heart-container"><img src="images/heart.svg" width="16" height="16" alt="сердечко" class="heart">
+          <ul class="provider-list">
+            <li class="provider-list-item"><a href="" class="provider-item-link">Для поставщиков</a></li>
+            <li class="provider-list-item"><a href="" class="provider-item-link">Наши документы</a></li>
+            <li class="provider-list-item"><a href="" class="provider-item-link">О производстве</a></li>
+            <li class="provider-list-item"><a href="" class="provider-item-link">Экологические стандарты</a></li>
+          </ul>
+        </div>
         <div class="studuio-card">
           <a href="https://htmlacademy.ru/" class="logo-link"><img src="images/logo_htmlacademy.svg"
               alt="Логотип htmlacademy" class="logo" width="93" height="
