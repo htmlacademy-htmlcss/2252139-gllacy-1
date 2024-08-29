@@ -336,7 +336,7 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
-
+align-self: center;
   margin-left: 335px;
 }
 .catalog-filter {
@@ -755,6 +755,7 @@ width: 420px;
 .pagination-current {
   background-color: rgba(252, 252, 252, 1);
   border-radius: 50%;
+  padding: 2px 8px;
 }
 .breadcrumbs-link {
   text-decoration: none;
@@ -1015,4 +1016,58 @@ border-radius: 18px;
   color: #2d3440;
   padding: 0;
   align-self: flex-end;
+}
+.pagination-show-more{
+font-family: "Inter";
+  font-size: 16px;
+  font-weight: 700;
+  border: 0;
+  border-radius: 26px;
+  padding: 0;
+color: #2d3440;
+box-shadow: 0 0 0 4px rgba(252, 252, 252, 0.4);
+background-color: rgba(252, 252, 252, 1);
+}
+.pagination-link{
+  color: #2d3440;
+  width: 24px;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 24px;
+}
+.not-active-arrow-left{
+  display: block;
+  transform: scale(-1);
+  opacity: 30%;
+}
+.not-active-arrow-right{
+    display: block;
+  opacity: 30%;
+}
+.arrow-left{
+ display: block;
+ transform: scale(-1);
+}
+.pagination-prev{
+  padding: 0;
+  width: 16px;
+  height: 16px;
+position: relative;
+top: 4px;
+}
+.pagination-item{
+height: 24px;
+}
+.pagination-item:first-child{
+  margin-right: 8px;
+}
+.pagination-next{
+  padding: 0;
+  width: 16px;
+  height: 16px;
+position: relative;
+top: 4px;
+}
+.pagination-item:last-child{
+  margin-left: 8px;
 }
