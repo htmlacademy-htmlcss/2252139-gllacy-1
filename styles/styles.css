@@ -35,7 +35,7 @@ body {
   font-family: "Inter";
   font-size: 16px;
   line-height: 22px;
-  background-color: #feafc3;
+
   color: #565c66;
 }
 .main-header {
@@ -819,6 +819,7 @@ input.price {
 }
 .arrow-prev {
   transform: rotate(-180deg);
+  display: block;
 }
 .slider-pagination-button {
   padding: 6px;
@@ -1072,4 +1073,44 @@ input[type="range"] {
 }
 .pagination-item:last-child {
   margin-left: 8px;
+}
+.arrow-next{
+display: block;
+}
+.button {
+cursor: pointer;
+}
+.slider-pagination-button{
+cursor: pointer;
+}
+.cotolog-container{
+cursor: pointer;
+}
+.slider-button{
+cursor: pointer;
+}
+.slider-color{
+    background-color: #feafc3;
+}
+.slider-color-blue{
+  background-color: #69A9FF;
+}
+.slider-color-yollow{
+  background-color: #FCC850;
+}
+.modal-container{
+  position: fixed;
+top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 5;
+}
+.modal{
+  width: 570px;
+  background-color: #FCFCFC;
+  margin: auto;
+  padding: 64px;
 }
