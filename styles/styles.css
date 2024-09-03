@@ -1108,9 +1108,58 @@ top: 0;
   background-color: rgba(0, 0, 0, 0.3);
   z-index: 5;
 }
+.modal-container-close{
+display: none;
+}
 .modal{
   width: 570px;
   background-color: #FCFCFC;
   margin: auto;
   padding: 64px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  position: relative;
+}
+.modal-input{
+  width:442px ;
+  padding: 14px 16px;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Inter";
+  margin-bottom:16px;
+color:#B9B9B9 ;
+border: 1px solid #B9B9B9;
+border-radius: 4px;
+}
+.modal-input:last-child{
+margin-bottom: 32px;
+padding-bottom: 113px;
+}
+.modal-title{
+margin: 0;
+color: #2d3440;
+font-size: 24px;
+line-height: 30px;
+font-weight: 700;
+margin-bottom: 32px;
+}
+.modal-close-button{
+  background-image: url(../images/obelisk.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 0;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top:32px;
+  right: 32px;
+  background-color: #FCFCFC;
+  cursor: pointer;
+}
+.modal-button{
+margin-left: auto;
+display: block;
 }

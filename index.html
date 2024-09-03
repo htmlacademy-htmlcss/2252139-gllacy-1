@@ -71,7 +71,7 @@
                   </button>
                 </div>
               </div>
-              <div class="slide">
+              <div class="slide ">
                 <div class="collector">
                   <h2 class="slider-title">Нежный пломбир с&nbsp;клубничным джемом</h2>
                   <p class="icecream-description">Натуральное мороженое из свежих сливок и&nbsp;молока с вкуснейшим
@@ -84,11 +84,11 @@
                       height="16">
                   </button>
                   <img src="images/ice-cream-banan.png" alt="Сливочное мороженое " class="slider-image-curent"
-                    width="327.15" height="507">
+                    width="327.15" height="507"><div class="under-image-current"></div>
                   <img src="images/ice-cream-raspberries.png" alt="пломбир с клубничным джемом" class="slider-image "
-                    width="66" height="150">
+                    width="66" height="150"><div class="under-image-first"></div>
                   <img src="images/ice-cream-marshmallows.png" width="66" height="150" alt="Карамельный пломбир "
-                    class="slider-image">
+                    class="slider-image"><div class="under-image-two"></div>
                   <button class="slider-button slider-next" type="button"> <span class="visually-hidden">Следующее
                       фото</span><img src="images/arrow.svg" alt="Стелка вперед" class="arrow-next" width="16"
                       height="16">
@@ -108,11 +108,11 @@
                       height="16">
                   </button>
                   <img src="images/ice-cream-marshmallows.png" width="327.15" height="507" alt="Карамельный пломбир "
-                    class="slider-image-curent">
+                    class="slider-image-curent"><div class="under-image-current"></div>
                   <img src="images/ice-cream-banan.png" alt="Сливочное мороженое " class="slider-image" width="66"
-                    height="150">
+                    height="150"><div class="under-image-first"></div>
                   <img src="images/ice-cream-raspberries.png" alt="пломбир с клубничным джемом" class="slider-image "
-                    width="66" height="150">
+                    width="66" height="150"><div class="under-image-two"></div>
                   <button class="slider-button slider-next" type="button"> <span class="visually-hidden">Следующее
                       фото</span><img src="images/arrow.svg" alt="Стелка вперед" class="arrow-next" width="16"
                       height="16">
@@ -346,8 +346,19 @@
     </footer>
     </div>
   </body>
+  <div class="modal-container-close">
   <div class="modal-container"><div class="modal">
-    <button class=" newsleter-button button " type="submit"> Отправить </button>
+    <button class="modal-close-button" type="button">
+      <span class="visually-hidden">Закрыть</span>
+    </button>
+<form class="modal-form" action="https://echo.htmlacademy.ru/" method="get">
+<h2 class="modal-title">Мы обязательно ответим вам!</h2>
+<input type="text"  name="modal-name-surname" placeholder="Имя и фамилия" class="modal-input">
+<input type="text"  name="modal-email" placeholder="email@example.com" class="modal-input">
+<input type="text"  name="modal-text" placeholder="В свободной форме" class="modal-input">
+</form>
+    <button class=" newsleter-button button modal-button" type="submit"> Отправить </button>
+  </div>
   </div>
   </div>
 </html>
