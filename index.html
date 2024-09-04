@@ -7,21 +7,27 @@
     <link rel="stylesheet" href="styles/styles.css">
   </head>
 
-  <body>
-    <div class="slider-color">
+  <body class="slider-color">
     <header class="main-header">
       <nav class="navigation">
         <a href="index.html" class="logo-link"><img src="images/logo.svg" alt="Логотип Gllacy" class="logo" width="137"
             height="55.72"></a>
         <ul class="navigation-list">
-          <li class="navigation-item"> <button class="cotolog-container" type="button">Каталог<img
+          <li class="navigation-item"> <button class="cotolog-container " type="button">Каталог<img
                 src="images/Arrow-black.svg" alt="стрелка вниз" width="11" height="6" class="arrow-bottom"></button>
-            <!-- <ul>
-              <li><a href="#">Сливочное</a></li>
-              <li><a href="#">Щербеты</a></li>
-              <li><a href="#">Фруктовый лед</a></li>
-              <li><a href="#">Мелорин</a></li>
-            </ul> -->
+            <button class="cotolog-container-active cotolog-container-none" type="button">Каталог<img
+                src="images/arrow-white.svg" alt="стрелка вверх" width="11" height="6" class="arrow-bottom"></button>
+            <div class="popover popover-cotolog ">
+              <h2 class="popover-cotolog-title">Новинки</h2>
+              <div class="popover-cotolog-border"></div>
+              <ul class="popover-cotolog-list">
+                <li class="popover-cotolog-item"><a href="#" class="popover-cotolog-item-link">Сливочное</a></li>
+                <li class="popover-cotolog-item"><a href="#" class="popover-cotolog-item-link">Щербеты</a></li>
+                <li class="popover-cotolog-item"><a href="#" class="popover-cotolog-item-link">Фруктовый лед</a></li>
+                <li class="popover-cotolog-item"><a href="#" class="popover-cotolog-item-link">Мелорин</a></li>
+              </ul>
+            </div>
+
           </li>
           <li class="navigation-item"><a class="nav-link" href=" ">Доставка и оплата</a></li>
           <li class="navigation-item"><a class="nav-link" href=" ">О компании</a></li>
@@ -29,13 +35,48 @@
         <ul class="navigation-list navigation-user">
           <li class="navigation-item"><a class="nav-link contacts-phone" href="tel:+78005558628">+7 800 555-86-28</a>
           </li>
-          <li class="navigation-item"><a href="" class="nav-link search"><span class="visually-hidden">Поиск</span><img
+          <li class="navigation-item"><a href="" class="nav-link search "><span class="visually-hidden">Поиск</span><img
                 src="images/search.svg" class="search-navigation" width="16" height="16" alt="Поиск"></a>
+            <a href="" class="nav-link search-active search-none "><span class="visually-hidden">Поиск</span><img
+                src="images/Search-white.svg" class="search-navigation" width="16" height="16" alt="Поиск"></a>
+            <div class="popover popover-search ">
+              <form action="https://echo.htmlacademy.ru/" method="get" class="popover-search-form">
+                <input class="search-input-form" placeholder="Поиск по сайту" type="text" name="popover-search"
+                  >
+              </form>
+            </div>
           </li>
-          <li class="navigation-item"><a class="nav-link" href=""><img src="images/entrance.svg" width="16" height="16"
-                class="entrance-navigation" alt="дверь">Вход</a></li>
-          <li class="navigation-item"><a class="nav-link" href=""><img src="images/basket.svg" class="basket-navigation"
-                width="16" height="16" alt="корзина">2 товара</a></li>
+          <li class="navigation-item"><a class="nav-link entrance " href=""><img src="images/entrance.svg" width="16"
+                height="16" class="entrance-navigation" alt="дверь">Вход</a>
+            <a class="nav-link entrance-active entrance-none" href=""><img src="images/entrance-white.svg" width="16"
+                height="16" class="entrance-navigation" alt="дверь">Вход</a>
+                <div class="popover popover-entrance ">
+                  <h2 class="popover-entrance-title">Личный кабинет </h2>
+                  <form action="https://echo.htmlacademy.ru/" method="get" class="popover-entrance-form">
+                    <input type="email" class="popover-email" name="popover-email" placeholder="email@example.com">
+                    <input type="password" class="popover-password" name="popover-password" placeholder="пароль">
+          <div class="popover-email-container">
+            <button class="button button-popover" type="button">Войти</button>
+          <ul class="popover-entrance-list">
+          <li class="popover-entrance-list-link"><a class="password-link">Забыли пароль?</a></li>
+          <li class="popover-entrance-list-link"><a class="registration-link">Регистрация</a></li>
+              </ul> </div> </form> </div>
+          </li>
+          <li class="navigation-item"><a class="nav-link " href=""><img src="images/basket.svg"
+                class="basket-navigation" width="16" height="16" alt="корзина">2 товара</a>
+            <a class="nav-link basket-active basket-none" href=""><img src="images/basket-white.svg"
+                class="basket-navigation" width="16" height="16" alt="корзина">2 товара</a>
+<div class="popover popover-basket ">
+  <h2 class="popover-basket-title">Корзина</h2>
+  <ul class="popover-basket-list">
+    <li class="popover-basket-list-item"><img src="images/ice-cream-round/raspberries-round.jpg" width="46" height="46" class="popover-basket-cream-round"><h3 class="popover-basket-cream-round-title">Малинка</h3><span class="quantity-ice-cream">1 кг х 310 ₽</span><span class="popover-basket-cream-round-price">310 ₽</span><img src="images/obelisk.svg" width="10" height="10" class="obelisk-popover"></li>
+    <li class="popover-basket-list-item"><img src="images/ice-cream-round/babl-round.jpg" width="46" height="46" class="popover-basket-cream-round">
+    <h3 class="popover-basket-cream-round-title">Бабл-гам</h3><span class="quantity-ice-cream">1,5 кг х 320 ₽</span><span
+      class="popover-basket-cream-round-price">480 ₽</span><img src="images/obelisk.svg" width="10" height="10" class="obelisk-popover"></li>
+  </ul>
+  <button type="button" class="button button-popover button-popover-basket">Оформить заказ</button><span class="final-price">Итого: 790 ₽</span>
+</div>
+          </li>
         </ul>
       </nav>
     </header>
@@ -84,11 +125,14 @@
                       height="16">
                   </button>
                   <img src="images/ice-cream-banan.png" alt="Сливочное мороженое " class="slider-image-curent"
-                    width="327.15" height="507"><div class="under-image-current"></div>
+                    width="327.15" height="507">
+                  <div class="under-image-current"></div>
                   <img src="images/ice-cream-raspberries.png" alt="пломбир с клубничным джемом" class="slider-image "
-                    width="66" height="150"><div class="under-image-first"></div>
+                    width="66" height="150">
+                  <div class="under-image-first"></div>
                   <img src="images/ice-cream-marshmallows.png" width="66" height="150" alt="Карамельный пломбир "
-                    class="slider-image"><div class="under-image-two"></div>
+                    class="slider-image">
+                  <div class="under-image-two"></div>
                   <button class="slider-button slider-next" type="button"> <span class="visually-hidden">Следующее
                       фото</span><img src="images/arrow.svg" alt="Стелка вперед" class="arrow-next" width="16"
                       height="16">
@@ -108,11 +152,14 @@
                       height="16">
                   </button>
                   <img src="images/ice-cream-marshmallows.png" width="327.15" height="507" alt="Карамельный пломбир "
-                    class="slider-image-curent"><div class="under-image-current"></div>
+                    class="slider-image-curent">
+                  <div class="under-image-current"></div>
                   <img src="images/ice-cream-banan.png" alt="Сливочное мороженое " class="slider-image" width="66"
-                    height="150"><div class="under-image-first"></div>
+                    height="150">
+                  <div class="under-image-first"></div>
                   <img src="images/ice-cream-raspberries.png" alt="пломбир с клубничным джемом" class="slider-image "
-                    width="66" height="150"><div class="under-image-two"></div>
+                    width="66" height="150">
+                  <div class="under-image-two"></div>
                   <button class="slider-button slider-next" type="button"> <span class="visually-hidden">Следующее
                       фото</span><img src="images/arrow.svg" alt="Стелка вперед" class="arrow-next" width="16"
                       height="16">
@@ -347,18 +394,19 @@
     </div>
   </body>
   <div class="modal-container-close">
-  <div class="modal-container"><div class="modal">
-    <button class="modal-close-button" type="button">
-      <span class="visually-hidden">Закрыть</span>
-    </button>
-<form class="modal-form" action="https://echo.htmlacademy.ru/" method="get">
-<h2 class="modal-title">Мы обязательно ответим вам!</h2>
-<input type="text"  name="modal-name-surname" placeholder="Имя и фамилия" class="modal-input">
-<input type="text"  name="modal-email" placeholder="email@example.com" class="modal-input">
-<input type="text"  name="modal-text" placeholder="В свободной форме" class="modal-input">
-</form>
-    <button class=" newsleter-button button modal-button" type="submit"> Отправить </button>
-  </div>
-  </div>
-  </div>
+    <div class="modal-container">
+      <div class="modal">
+        <button class="modal-close-button" type="button">
+          <span class="visually-hidden">Закрыть</span>
+        </button>
+        <form class="modal-form" action="https://echo.htmlacademy.ru/" method="get">
+          <h2 class="modal-title">Мы обязательно ответим вам!</h2>
+          <input type="text" name="modal-name-surname" placeholder="Имя и фамилия" class="modal-input">
+          <input type="text" name="modal-email" placeholder="email@example.com" class="modal-input">
+          <input type="text" name="modal-text" placeholder="В свободной форме" class="modal-input">
+        </form>
+        <button class=" newsleter-button button modal-button" type="submit"> Отправить </button>
+      </div>
+    </div>
+
 </html>
