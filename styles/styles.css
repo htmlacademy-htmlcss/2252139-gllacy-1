@@ -646,6 +646,7 @@ section:last-child {
   padding-left: 16px;
   border: 1px solid rgba(185, 185, 185, 1);
   border-radius: 3px;
+  box-sizing: border-box;
 }
 .newsleter-button {
   padding: 12px 32px;
@@ -1920,4 +1921,44 @@ color: rgba(45, 52, 64, 1);
   border: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+.delivery-card .label:hover {
+ border: 1px solid rgba(45, 52, 64, 1);
+color: rgba(45, 52, 64, 1);
+}
+.delivery-card .label:focus-visible{
+border: 2px solid rgba(45, 52, 64, 1);
+color: rgba(45, 52, 64, 1);
+}
+.delivery-card .label{
+  height: 48px;
+  border-radius: 3px;
+}
+.delivery-card .label:disabled{
+border: 1px solid rgba(185, 185, 185, 1);
+background-color: rgba(231, 231, 231, 1);
+color: rgba(45, 52, 64, 0.6);
+}
+.delivery-card .label:disabled:hover{
+border: 1px solid rgba(185, 185, 185, 1);
+background-color: rgba(231, 231, 231, 1);
+color: rgba(45, 52, 64, 1);
+}
+.newslater-input-form:hover {
+ border: 1px solid rgba(45, 52, 64, 1);
+color: rgba(45, 52, 64, 1);
+}
+.newslater-input-form:focus-visible{
+border: 2px solid rgba(45, 52, 64, 1);
+color: rgba(45, 52, 64, 1);
+}
+.newslater-input-form:disabled{
+border: 1px solid rgba(185, 185, 185, 1);
+background-color: rgba(231, 231, 231, 1);
+color: rgba(45, 52, 64, 0.6);
+}
+.newslater-input-form:disabled:hover{
+border: 1px solid rgba(185, 185, 185, 1);
+background-color: rgba(231, 231, 231, 1);
+color: rgba(45, 52, 64, 1);
 }
