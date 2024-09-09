@@ -1849,3 +1849,24 @@ opacity: 40%;
 .control-input[type="radio"]:checked:disabled + .control-mark{
   opacity: 40%;
 }
+.modal-input:hover{
+border: 1px solid rgba(45, 52, 64, 1);
+color: rgba(45, 52, 64, 1);
+}
+.modal-input:focus-visible{
+border: 2px solid rgba(45, 52, 64, 1);
+color: rgba(45, 52, 64, 1);
+}
+.modal-input:disabled{
+border: 1px solid rgba(185, 185, 185, 1);
+background-color: rgba(231, 231, 231, 1);
+color: rgba(45, 52, 64, 0.6);
+}
+.modal-input:disabled:hover{
+border: 1px solid rgba(185, 185, 185, 1);
+background-color: rgba(231, 231, 231, 1);
+color: rgba(45, 52, 64, 1);
+}
+.modal-input.error {
+border: 1px solid rgba(234, 84, 84, 1);
+}
