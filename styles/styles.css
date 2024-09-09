@@ -1825,6 +1825,12 @@ border-radius: 20px;
 .control-input:disabled + .control-mark {
   opacity: 50%;
 }
+.control-input:focus + .control-mark{
+background-image: url(../images/checked-white.svg);
+}
+.control-input[type="checkbox"]:checked:focus + .control-mark{
+  background-image: url(../images/checkbox-white-checked.svg);
+}
 .control-input[type="checkbox"]:checked + .control-mark{
 background-image: url(../images/checkbox-checked-black.svg);
 }
