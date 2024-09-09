@@ -1051,7 +1051,7 @@ box-shadow:0 0 0 2px rgba(45, 52, 64, 1) ;
 }
 .delivery-card .form-label {
 margin-bottom: 8px;
-display: inline;
+display: inline-block;
 }
 .delivery-card .label {
   padding: 14px 16px;
