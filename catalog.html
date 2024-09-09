@@ -118,8 +118,8 @@
                 </select>
               </fieldset>
               <fieldset class="catalog-filter-group">
-                <legend class="catalog-filter-title">Цена: <input type="text" value="100" class="price"> ₽ – <input
-                    type="text" value="500" class="price"> ₽
+                <legend class="catalog-filter-title">Цена: <input type="text" value="100" class="price" name="min-price" required> ₽ – <input
+                    type="text" value="500" class="price" name="max-price" required> ₽
                 </legend>
 <div class="range-container">
   <div class="range-scale">
@@ -139,28 +139,28 @@
                 <ul class="catalog-filter-list catalog-filter-list-first">
                   <li class="catalog-filter-item">
                     <label class="control">
-                      <input class="control-input visually-hidden" type="radio" name="product-group" value="shaving-supplies">
+                      <input class="control-input visually-hidden" type="radio" name="product-group" value="shaving-supplies" required>
 <span class="control-mark"></span>
                     <span class="control-label">  0%</span>
                     </label>
                   </li>
                   <li class="catalog-filter-item">
                     <label class="control">
-                      <input class="control-input visually-hidden" type="radio" name="product-group" value="care-products" checked>
-<span class="control-mark"></span>
+                      <input class="control-input visually-hidden" type="radio" name="product-group" value="care-products" checked required>
+<span class="control-mark" ></span>
                     <span class="control-label"> до 10%</span>
                     </label>
                   </li>
                   <li class="catalog-filter-item">
                     <label class="control">
-                      <input class="control-input visually-hidden" type="radio" name="product-group" value="accessories">
+                      <input class="control-input visually-hidden" type="radio" name="product-group" value="accessories" required>
 <span class="control-mark"></span>
                     <span class="control-label"> до 30%</span>
                     </label>
                   </li>
                   <li class="catalog-filter-item">
                     <label class="control">
-                      <input class="control-input visually-hidden" type="radio" name="product-group" value="accessories">
+                      <input class="control-input visually-hidden" type="radio" name="product-group" value="accessories" required>
 <span class="control-mark"></span>
                     <span class="control-label"> выше 30%</span>
                     </label>
@@ -169,40 +169,40 @@
               </fieldset>
             </div>
             <div class="form-container filler">
-              <fieldset class="catalog-filter-group">
+              <fieldset class="catalog-filter-group" >
                 <legend class="catalog-filter-title">Наполнители:</legend>
                 <ul class="catalog-filter-list catalog-filter-list-two">
                   <li class="catalog-filter-item">
                     <label class="control">
-                      <input class="control-input visually-hidden" type="checkbox" name="bed-head-for-men" checked>
+                      <input class="control-input visually-hidden" type="checkbox" name="bed-head-for-men" checked >
                       <span class="control-mark"></span>
                       <span class="control-label">шоколадные</span>
                     </label>
                   </li>
                   <li class="catalog-filter-item">
                     <label class="control">
-                      <input class="control-input visually-hidden" type="checkbox" name="homme-deep-cleansing-cool" checked>
+                      <input class="control-input visually-hidden" type="checkbox" name="homme-deep-cleansing-cool" checked >
 <span class="control-mark"></span>
                       <span class="control-label">сахарные посыпки</span>
                     </label>
                   </li>
                   <li class="catalog-filter-item">
                     <label class="control">
-                      <input class="control-input visually-hidden" type="checkbox" name="so-intense">
+                      <input class="control-input visually-hidden" type="checkbox" name="so-intense" >
 <span class="control-mark"></span>
                       <span class="control-label">фрукты</span>
                     </label>
                   </li>
                   <li class="catalog-filter-item">
                     <label class="control">
-                      <input class="control-input visually-hidden" type="checkbox" name="sprekenhus">
+                      <input class="control-input visually-hidden" type="checkbox" name="sprekenhus" >
 <span class="control-mark"></span>
                       <span class="control-label">сиропы</span>
                     </label>
                   </li>
                   <li class="catalog-filter-item">
                     <label class="control">
-                      <input class="control-input visually-hidden" type="checkbox" name="firm-storе">
+                      <input class="control-input visually-hidden" type="checkbox" name="firm-storе" >
 <span class="control-mark"></span>
                       <span class="control-label">джемы</span>
                     </label>
