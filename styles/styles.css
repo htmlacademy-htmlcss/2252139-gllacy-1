@@ -1518,7 +1518,7 @@ box-sizing: border-box;
   right: 0;
   z-index: 5;
   top: 40px;
-  display: none;
+display: none;
 }
 
 .popover-entrance {
@@ -1529,12 +1529,13 @@ box-sizing: border-box;
   padding-bottom: 52px;
   box-sizing: border-box;
   border-radius: 4px;
-  display: none;
   position: absolute;
   right: 0;
   z-index: 5;
   top: 40px;
+  display: none;
 }
+button-popover-basket
 .popover-entrance-title {
   margin: 0;
   font-size: 24px;
@@ -1562,6 +1563,9 @@ box-sizing: border-box;
   color: rgba(45, 52, 64, 1);
   border-radius: 4px;
   margin-bottom: 32px;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Inter";
 }
 .button-popover {
   padding: 12px 32px;
@@ -1684,9 +1688,14 @@ li.popover-basket-list-item:last-child {
   border-bottom: 1px solid rgba(231, 231, 231, 1);
   margin-bottom: 32px;
 }
-.button-popover-basket {
+a.button-popover-basket  {
   width: 198px;
   margin-right: 32px;
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: center;
+  color: rgba(252, 252, 252, 1);
+  padding: 12px 32px;
 }
 .final-price {
   font-size: 18px;
@@ -1867,6 +1876,42 @@ border: 1px solid rgba(185, 185, 185, 1);
 background-color: rgba(231, 231, 231, 1);
 color: rgba(45, 52, 64, 1);
 }
-.modal-input.error {
+.error {
 border: 1px solid rgba(234, 84, 84, 1);
+}
+.popover-entrance input:hover{
+border: 1px solid rgba(45, 52, 64, 1);
+color: rgba(45, 52, 64, 1);
+}
+.popover-entrance input:focus-visible{
+border: 2px solid rgba(45, 52, 64, 1);
+color: rgba(45, 52, 64, 1);
+}
+.popover-entrance input:disabled{
+border: 1px solid rgba(185, 185, 185, 1);
+background-color: rgba(231, 231, 231, 1);
+color: rgba(45, 52, 64, 0.6);
+}
+.popover-entrance input:disabled:hover{
+border: 1px solid rgba(185, 185, 185, 1);
+background-color: rgba(231, 231, 231, 1);
+color: rgba(45, 52, 64, 1);
+}
+.search-input-form:hover{
+  border: 1px solid rgba(45, 52, 64, 1);
+color: rgba(45, 52, 64, 1);
+}
+.search-input-form:focus-visible{
+border: 2px solid rgba(45, 52, 64, 1);
+color: rgba(45, 52, 64, 1);
+}
+.search-input-form:disabled{
+border: 1px solid rgba(185, 185, 185, 1);
+background-color: rgba(231, 231, 231, 1);
+color: rgba(45, 52, 64, 0.6);
+}
+.search-input-form:disabled:hover{
+border: 1px solid rgba(185, 185, 185, 1);
+background-color: rgba(231, 231, 231, 1);
+color: rgba(45, 52, 64, 1);
 }

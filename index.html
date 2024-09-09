@@ -52,10 +52,10 @@
             <div class="popover popover-entrance ">
               <h2 class="popover-entrance-title">Личный кабинет </h2>
               <form action="https://echo.htmlacademy.ru/" method="get" class="popover-entrance-form">
-                <input type="email" class="popover-email" name="popover-email" placeholder="email@example.com">
-                <input type="password" class="popover-password" name="popover-password" placeholder="пароль">
+                <input type="email" class="popover-email" name="popover-email" placeholder="email@example.com" required>
+                <input type="password" class="popover-password" name="popover-password" placeholder="пароль" required>
                 <div class="popover-email-container">
-                  <button class="button button-popover" type="button">Войти</button>
+                  <button class="button button-popover" type="submit">Войти</button>
                   <ul class="popover-entrance-list">
                     <li class="popover-entrance-list-link"><a class="password-link">Забыли пароль?</a></li>
                     <li class="popover-entrance-list-link"><a class="registration-link">Регистрация</a></li>
@@ -68,7 +68,7 @@
                 class="basket-navigation" width="16" height="16" alt="корзина">2 товара</a>
             <a class="nav-link basket-active basket-none" href=""><img src="images/basket-white.svg"
                 class="basket-navigation" width="16" height="16" alt="корзина">2 товара</a>
-            <div class="popover popover-basket ">
+            <div class="popover popover-basket" style="display: block;">
               <h2 class="popover-basket-title">Корзина</h2>
               <ul class="popover-basket-list">
                 <li class="popover-basket-list-item"><img src="images/ice-cream-round/raspberries-round.jpg" width="46"
@@ -84,7 +84,7 @@
                     width="10" height="10" class="obelisk-popover" alt="крестик для удаления товара">
                 </li>
               </ul>
-              <button type="button" class="button button-popover button-popover-basket">Оформить заказ</button><span
+              <a type="button" class="button button-popover button-popover-basket">Оформить заказ</a><span
                 class="final-price">Итого: 790 ₽</span>
             </div>
           </li>
