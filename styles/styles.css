@@ -666,6 +666,7 @@ aside {
   background-position: 0 -120px;
   transform: scaleX(-1);
   flex-direction: row-reverse;
+  background-color: aliceblue;
 }
 .delivery-title {
   margin: 0;
@@ -739,6 +740,7 @@ aside {
   background-repeat: no-repeat;
   border-radius: 16px;
   background-position: 0 -80px;
+  background-color: aliceblue;
 }
 .adress-card-description {
   width: 179px;
