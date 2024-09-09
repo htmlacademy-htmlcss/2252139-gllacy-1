@@ -1818,9 +1818,11 @@ border-radius: 20px;
 }
 .control-input:focus + .control-mark{
 background-image: url(../images/checked-white.svg);
+outline: 1px solid rgb(95, 95, 255);
 }
 .control-input[type="checkbox"]:checked:focus + .control-mark{
   background-image: url(../images/checkbox-white-checked.svg);
+  outline: 1px solid rgb(95, 95, 255);
 }
 .control-input[type="checkbox"]:checked + .control-mark{
 background-image: url(../images/checkbox-checked-black.svg);
@@ -1841,6 +1843,10 @@ opacity:50% ;
 }
 .control-input[type="radio"]:hover + .control-mark{
   background-image: url(../images/radio-white.svg);
+}
+.control-input[type="radio"]:focus + .control-mark{
+  outline: 1px solid rgb(95, 95, 255);
+  border-radius: 50%;
 }
 .control-input[type="radio"]:checked + .control-mark{
   background-image: url(../images/radio-black-cheked.svg);
