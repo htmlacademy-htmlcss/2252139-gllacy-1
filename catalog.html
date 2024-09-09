@@ -2,22 +2,25 @@
 <html lang="ru">
 
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>HTML Academy: Глейси</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles.css" />
   </head>
 
   <body class="slider-color">
     <header class="main-header">
       <nav class="navigation">
         <a href="index.html" class="logo-link"><img src="images/logo.svg" alt="Логотип Gllacy" class="logo" width="137"
-            height="55"></a>
+            height="55" /></a>
+
         <ul class="navigation-list">
-          <li class="navigation-item"> <button class="cotolog-container " type="button">Каталог<img
-                src="images/Arrow-black.svg" alt="стрелка вниз" width="11" height="6" class="arrow-bottom"></button>
-            <button class="cotolog-container-active cotolog-container-none" type="button">Каталог<img
-                src="images/arrow-white.svg" alt="стрелка вверх" width="11" height="6" class="arrow-bottom"></button>
-            <div class="popover popover-cotolog ">
+          <li class="navigation-item">
+            <a class="cotolog-container" type="button" href="catalog.html">Каталог<img src="images/arrow-black.svg"
+                alt="стрелка вниз" width="11" height="6" class="arrow-bottom" /></a>
+            <a class="cotolog-container-active cotolog-container-none" type="button" href="catalog.html">Каталог<img
+                src="images/arrow-white.svg" alt="стрелка вверх" width="11" height="6" class="arrow-bottom" /></a>
+
+            <div class="popover popover-cotolog">
               <h2 class="popover-cotolog-title">Новинки</h2>
               <div class="popover-cotolog-border"></div>
               <ul class="popover-cotolog-list">
@@ -27,7 +30,6 @@
                 <li class="popover-cotolog-item"><a href="#" class="popover-cotolog-item-link">Мелорин</a></li>
               </ul>
             </div>
-
           </li>
           <li class="navigation-item"><a class="nav-link" href=" ">Доставка и оплата</a></li>
           <li class="navigation-item"><a class="nav-link" href=" ">О компании</a></li>
@@ -35,27 +37,32 @@
         <ul class="navigation-list navigation-user">
           <li class="navigation-item"><a class="nav-link contacts-phone" href="tel:+78005558628">+7 800 555-86-28</a>
           </li>
-          <li class="navigation-item"><a href="" class="nav-link search "><span class="visually-hidden">Поиск</span><img
-                src="images/search.svg" class="search-navigation" width="16" height="16" alt="Поиск"></a>
-            <a href="" class="nav-link search-active search-none "><span class="visually-hidden">Поиск</span><img
-                src="images/Search-white.svg" class="search-navigation" width="16" height="16" alt="Поиск"></a>
-            <div class="popover popover-search ">
+          <li class="navigation-item">
+            <a href="" class="nav-link search"><span class="visually-hidden">Поиск</span><img src="images/search.svg"
+                class="search-navigation" width="16" height="16" alt="Поиск" /></a>
+
+            <a href="" class="nav-link search-active search-none"><span class="visually-hidden">Поиск</span><img
+                src="images/Search-white.svg" class="search-navigation" width="16" height="16" alt="Поиск" /></a>
+
+            <div class="popover popover-search">
               <form action="https://echo.htmlacademy.ru/" method="get" class="popover-search-form">
-                <input class="search-input-form" placeholder="Поиск по сайту" type="text" name="popover-search">
+                <input class="search-input-form" placeholder="Поиск по сайту" type="text" name="popover-search"
+                  aria-label="поле для поиска по сайту" />
               </form>
             </div>
           </li>
-          <li class="navigation-item"><a class="nav-link entrance " href=""><img src="images/entrance.svg" width="16"
-                height="16" class="entrance-navigation" alt="дверь">Вход</a>
+          <li class="navigation-item">
+            <a class="nav-link entrance" href=""><img src="images/entrance.svg" width="16" height="16"
+                class="entrance-navigation" alt="дверь" />Вход</a>
             <a class="nav-link entrance-active entrance-none" href=""><img src="images/entrance-white.svg" width="16"
-                height="16" class="entrance-navigation" alt="дверь">Вход</a>
-            <div class="popover popover-entrance ">
-              <h2 class="popover-entrance-title">Личный кабинет </h2>
+                height="16" class="entrance-navigation" alt="дверь" />Вход</a>
+            <div class="popover popover-entrance">
+              <h2 class="popover-entrance-title">Личный кабинет</h2>
               <form action="https://echo.htmlacademy.ru/" method="get" class="popover-entrance-form">
-                <input type="email" class="popover-email" name="popover-email" placeholder="email@example.com">
-                <input type="password" class="popover-password" name="popover-password" placeholder="пароль">
+                <input type="email" class="popover-email" name="popover-email" placeholder="email@example.com" required />
+                <input type="password" class="popover-password" name="popover-password" placeholder="пароль" required />
                 <div class="popover-email-container">
-                  <button class="button button-popover" type="button">Войти</button>
+                  <button class="button button-popover" type="submit">Войти</button>
                   <ul class="popover-entrance-list">
                     <li class="popover-entrance-list-link"><a class="password-link">Забыли пароль?</a></li>
                     <li class="popover-entrance-list-link"><a class="registration-link">Регистрация</a></li>
@@ -64,27 +71,34 @@
               </form>
             </div>
           </li>
-          <li class="navigation-item"><a class="nav-link " href=""><img src="images/basket.svg" class="basket-navigation"
-                width="16" height="16" alt="корзина">2 товара</a>
+          <li class="navigation-item">
+            <a class="nav-link" href=""><img src="images/basket.svg" class="basket-navigation" width="16" height="16"
+                alt="корзина" />2 товара</a>
             <a class="nav-link basket-active basket-none" href=""><img src="images/basket-white.svg"
-                class="basket-navigation" width="16" height="16" alt="корзина">2 товара</a>
-            <div class="popover popover-basket ">
+                class="basket-navigation" width="16" height="16" alt="корзина" />2 товара</a>
+            <div class="popover popover-basket">
               <h2 class="popover-basket-title">Корзина</h2>
               <ul class="popover-basket-list">
-                <li class="popover-basket-list-item"><img src="images/ice-cream-round/raspberries-round.jpg" width="46"
-                    height="46" class="popover-basket-cream-round" alt="малиновый рожок">
-                  <h3 class="popover-basket-cream-round-title">Малинка</h3><span class="quantity-ice-cream">1 кг х 310
-                    ₽</span><span class="popover-basket-cream-round-price">310 ₽</span><img src="images/obelisk.svg"
-                    width="10" height="10" class="obelisk-popover" alt="крестик для удаления товара">
+                <li class="popover-basket-list-item">
+                  <img src="images/ice-cream-round/raspberries-round.jpg" width="46" height="46"
+                    class="popover-basket-cream-round" alt="малиновый рожок" />
+                  <h3 class="popover-basket-cream-round-title">Малинка</h3>
+                  <span class="quantity-ice-cream">1 кг х 310 ₽</span><span class="popover-basket-cream-round-price">310
+                    ₽</span>
+                  <img src="images/obelisk.svg" width="10" height="10" class="obelisk-popover"
+                    alt="крестик для удаления товара" />
                 </li>
-                <li class="popover-basket-list-item"><img src="images/ice-cream-round/babl-round.jpg" width="46"
-                    height="46" class="popover-basket-cream-round" alt="бабл рожок">
-                  <h3 class="popover-basket-cream-round-title">Бабл-гам</h3><span class="quantity-ice-cream">1,5 кг х
-                    320 ₽</span><span class="popover-basket-cream-round-price">480 ₽</span><img src="images/obelisk.svg"
-                    width="10" height="10" class="obelisk-popover" alt="крестик для удаления товара">
+                <li class="popover-basket-list-item">
+                  <img src="images/ice-cream-round/babl-round.jpg" width="46" height="46"
+                    class="popover-basket-cream-round" alt="бабл рожок" />
+                  <h3 class="popover-basket-cream-round-title">Бабл-гам</h3>
+                  <span class="quantity-ice-cream">1,5 кг х 320 ₽</span><span class="popover-basket-cream-round-price">480
+                    ₽</span>
+                  <img src="images/obelisk.svg" width="10" height="10" class="obelisk-popover"
+                    alt="крестик для удаления товара" />
                 </li>
               </ul>
-              <button type="button" class="button button-popover button-popover-basket">Оформить заказ</button><span
+              <a type="button" class="button button-popover button-popover-basket">Оформить заказ</a><span
                 class="final-price">Итого: 790 ₽</span>
             </div>
           </li>
@@ -118,92 +132,96 @@
                 </select>
               </fieldset>
               <fieldset class="catalog-filter-group">
-                <legend class="catalog-filter-title">Цена: <input type="text" value="100" class="price" name="min-price" required> ₽ – <input
-                    type="text" value="500" class="price" name="max-price" required> ₽
-                </legend>
-<div class="range-container">
-  <div class="range-scale">
-    <div class="range-bar" style="left: 42px; width: 58px">
-      <button class="range-toggle toggle-min">
-        <span class="visually-hidden">Изменить минимальную цену.</span>
-      </button>
-      <button class="range-toggle toggle-max">
-        <span class="visually-hidden">Изменить максимальную цену.</span>
-      </button>
-    </div>
-  </div>
-  </div>
+                <legend class="catalog-filter-title">Цена: <input type="text" value="100" class="price" name="min-price"
+                    required /> ₽ – <input type="text" value="500" class="price" name="max-price" required /> ₽</legend>
+                <div class="range-container">
+                  <div class="range-scale">
+                    <div class="range-bar" style="left: 42px; width: 58px">
+                      <button class="range-toggle toggle-min">
+                        <span class="visually-hidden">Изменить минимальную цену.</span>
+                      </button>
+                      <button class="range-toggle toggle-max">
+                        <span class="visually-hidden">Изменить максимальную цену.</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
               </fieldset>
               <fieldset class="catalog-filter-group">
-                <legend class="catalog-filter-title ">Жирность:</legend>
+                <legend class="catalog-filter-title">Жирность:</legend>
                 <ul class="catalog-filter-list catalog-filter-list-first">
                   <li class="catalog-filter-item">
                     <label class="control">
-                      <input class="control-input visually-hidden" type="radio" name="product-group" value="shaving-supplies" required>
-<span class="control-mark"></span>
-                    <span class="control-label">  0%</span>
+                      <input class="control-input visually-hidden" type="radio" name="product-group"
+                        value="shaving-supplies" required />
+                      <span class="control-mark"></span>
+                      <span class="control-label"> 0%</span>
                     </label>
                   </li>
                   <li class="catalog-filter-item">
                     <label class="control">
-                      <input class="control-input visually-hidden" type="radio" name="product-group" value="care-products" checked required>
-<span class="control-mark" ></span>
-                    <span class="control-label"> до 10%</span>
+                      <input class="control-input visually-hidden" type="radio" name="product-group"
+                        value="care-products" checked required />
+                      <span class="control-mark"></span>
+                      <span class="control-label"> до 10%</span>
                     </label>
                   </li>
                   <li class="catalog-filter-item">
                     <label class="control">
-                      <input class="control-input visually-hidden" type="radio" name="product-group" value="accessories" required>
-<span class="control-mark"></span>
-                    <span class="control-label"> до 30%</span>
+                      <input class="control-input visually-hidden" type="radio" name="product-group" value="accessories"
+                        required />
+                      <span class="control-mark"></span>
+                      <span class="control-label"> до 30%</span>
                     </label>
                   </li>
                   <li class="catalog-filter-item">
                     <label class="control">
-                      <input class="control-input visually-hidden" type="radio" name="product-group" value="accessories" required>
-<span class="control-mark"></span>
-                    <span class="control-label"> выше 30%</span>
+                      <input class="control-input visually-hidden" type="radio" name="product-group" value="accessories"
+                        required />
+                      <span class="control-mark"></span>
+                      <span class="control-label"> выше 30%</span>
                     </label>
                   </li>
                 </ul>
               </fieldset>
             </div>
             <div class="form-container filler">
-              <fieldset class="catalog-filter-group" >
+              <fieldset class="catalog-filter-group">
                 <legend class="catalog-filter-title">Наполнители:</legend>
                 <ul class="catalog-filter-list catalog-filter-list-two">
                   <li class="catalog-filter-item">
                     <label class="control">
-                      <input class="control-input visually-hidden" type="checkbox" name="bed-head-for-men" checked >
+                      <input class="control-input visually-hidden" type="checkbox" name="bed-head-for-men" checked />
                       <span class="control-mark"></span>
                       <span class="control-label">шоколадные</span>
                     </label>
                   </li>
                   <li class="catalog-filter-item">
                     <label class="control">
-                      <input class="control-input visually-hidden" type="checkbox" name="homme-deep-cleansing-cool" checked >
-<span class="control-mark"></span>
+                      <input class="control-input visually-hidden" type="checkbox" name="homme-deep-cleansing-cool"
+                        checked />
+                      <span class="control-mark"></span>
                       <span class="control-label">сахарные посыпки</span>
                     </label>
                   </li>
                   <li class="catalog-filter-item">
                     <label class="control">
-                      <input class="control-input visually-hidden" type="checkbox" name="so-intense" >
-<span class="control-mark"></span>
+                      <input class="control-input visually-hidden" type="checkbox" name="so-intense" />
+                      <span class="control-mark"></span>
                       <span class="control-label">фрукты</span>
                     </label>
                   </li>
                   <li class="catalog-filter-item">
                     <label class="control">
-                      <input class="control-input visually-hidden" type="checkbox" name="sprekenhus" >
-<span class="control-mark"></span>
+                      <input class="control-input visually-hidden" type="checkbox" name="sprekenhus" />
+                      <span class="control-mark"></span>
                       <span class="control-label">сиропы</span>
                     </label>
                   </li>
                   <li class="catalog-filter-item">
                     <label class="control">
-                      <input class="control-input visually-hidden" type="checkbox" name="firm-storе" >
-<span class="control-mark"></span>
+                      <input class="control-input visually-hidden" type="checkbox" name="firm-storе" />
+                      <span class="control-mark"></span>
                       <span class="control-label">джемы</span>
                     </label>
                   </li>
@@ -215,15 +233,19 @@
           <ul class="product-list">
             <li class="popular-icecream-list-item">
               <a href="" class="popular-icecream-image-link"><img src="images/ice-cream-round/raspberries-round.jpg"
-                  alt="Малиновый пломбир" class="popular-icecream-image" width="168" height="168"></a>
+                  alt="Малиновый пломбир" class="popular-icecream-image" width="168" height="168" /></a>
+
               <h3 class="popular-icecream-title"><a class="popular-icecream-title-link" href="">Малинка</a></h3>
               <p class="popular-icecream-list-item-description">Сливочное мороженое с малиновым джемом</p>
-              <div class="price-container"> <b class="product-price">310 ₽/кг</b> <a class="popular-icecream-link"
-                  href=""><span class="visually-hidden">купить</span></a></div>
+              <div class="price-container">
+                <b class="product-price">310 ₽/кг</b> <a class="popular-icecream-link" href=""><span
+                    class="visually-hidden">купить</span></a>
+              </div>
             </li>
             <li class="popular-icecream-list-item">
               <a href="" class="popular-icecream-image-link"><img src="images/ice-cream-round/pistachio-round.jpg"
-                  alt="Фисташковый пломбир" class="popular-icecream-image"></a>
+                  alt="Фисташковый пломбир" class="popular-icecream-image" /></a>
+
               <h3 class="popular-icecream-title"><a href="" class="popular-icecream-title-link">Фисташка</a></h3>
               <p class="popular-icecream-list-item-description">Фисташковый пломбир с кусочками шоколада</p>
               <div class="price-container">
@@ -233,11 +255,11 @@
             </li>
             <li class="popular-icecream-list-item">
               <a class="popular-icecream-image-link" href=""><img src="images/ice-cream-round/blueberry-round.jpg"
-                  alt="Черничный пломбир" class="popular-icecream-image" width="168" height="168"></a>
+                  alt="Черничный пломбир" class="popular-icecream-image" width="168" height="168" /></a>
+
               <h3 class="popular-icecream-title"><a href="" class="popular-icecream-title-link">Черника</a></h3>
 
-              <p class="popular-icecream-list-item-description">Крем-брюле
-                с черничным джемом</p>
+              <p class="popular-icecream-list-item-description">Крем-брюле с черничным джемом</p>
               <div class="price-container">
                 <b class="product-price">330 ₽/кг</b>
                 <a class="popular-icecream-link" href=""><span class="visually-hidden">купить</span></a>
@@ -245,11 +267,11 @@
             </li>
             <li class="popular-icecream-list-item">
               <a href="" class="popular-icecream-image-link"><img src="images/ice-cream-round/babl-round.jpg"
-                  alt="Ванильный пломбир" class="popular-icecream-image" width="168" height="168"></a>
+                  alt="Ванильный пломбир" class="popular-icecream-image" width="168" height="168" /></a>
+
               <h3 class="popular-icecream-title"><a href="" class="popular-icecream-title-link">Бабл-гам</a></h3>
 
-              <p class="popular-icecream-list-item-description">Ванильный пломбир
-                со сладкой посыпкой</p>
+              <p class="popular-icecream-list-item-description">Ванильный пломбир со сладкой посыпкой</p>
               <div class="price-container">
                 <b class="product-price">320 ₽/кг</b>
                 <a class="popular-icecream-link" href=""><span class="visually-hidden">купить</span></a>
@@ -257,9 +279,9 @@
             </li>
             <li class="popular-icecream-list-item">
               <a class="popular-icecream-image-link" href=""><img src="images/ice-cream-round/blackeberry-round.jpg"
-                  alt="Ежевичный пломбир" class="popular-icecream-image" width="168" height="168"></a>
-              <h3 class="popular-icecream-title"><a class="popular-icecream-title-link" href="">Ежевика</a></h3>
+                  alt="Ежевичный пломбир" class="popular-icecream-image" width="168" height="168" /></a>
 
+              <h3 class="popular-icecream-title"><a class="popular-icecream-title-link" href="">Ежевика</a></h3>
 
               <p class="popular-icecream-list-item-description">Сливочное мороженое с ежевичным джемом</p>
               <div class="price-container">
@@ -269,11 +291,11 @@
             </li>
             <li class="popular-icecream-list-item">
               <a class="popular-icecream-image-link" href=""><img src="images/ice-cream-round/banan-round.jpg"
-                  alt="Банановый пломбир" class="popular-icecream-image" width="168" height="168"></a>
+                  alt="Банановый пломбир" class="popular-icecream-image" width="168" height="168" /></a>
+
               <h3 class="popular-icecream-title"><a class="popular-icecream-title-link" href="">Банан</a></h3>
 
-              <p class="popular-icecream-list-item-description">Сливочный пломбир
-                с банановым вкусом</p>
+              <p class="popular-icecream-list-item-description">Сливочный пломбир с банановым вкусом</p>
               <div class="price-container">
                 <b class="product-price">340 ₽/кг</b>
                 <a class="popular-icecream-link" href=""><span class="visually-hidden">купить</span></a>
@@ -281,7 +303,8 @@
             </li>
             <li class="popular-icecream-list-item">
               <a class="popular-icecream-image-link" href=""><img src="images/ice-cream-round/chocolate-round.jpg"
-                  alt="Шоколадный пломбир" class="popular-icecream-image" width="168" height="168"></a>
+                  alt="Шоколадный пломбир" class="popular-icecream-image" width="168" height="168" /></a>
+
               <h3 class="popular-icecream-title"><a class="popular-icecream-title-link" href="">Шоколадка</a></h3>
 
               <p class="popular-icecream-list-item-description">Классический шоколадный пломбир</p>
@@ -292,11 +315,11 @@
             </li>
             <li class="popular-icecream-list-item">
               <a class="popular-icecream-image-link" href=""><img src="images/ice-cream-round/strawberry-round.jpg"
-                  alt="Клубничный пломбир" class="popular-icecream-image" width="168" height="168"></a>
+                  alt="Клубничный пломбир" class="popular-icecream-image" width="168" height="168" /></a>
+
               <h3 class="popular-icecream-title"><a class="popular-icecream-title-link" href="">Клубничка</a></h3>
 
-              <p class="popular-icecream-list-item-description">Сливочный пломбир
-                с клубничным вкусом</p>
+              <p class="popular-icecream-list-item-description">Сливочный пломбир с клубничным вкусом</p>
               <div class="price-container">
                 <b class="product-price">300 ₽/кг</b>
                 <a class="popular-icecream-link" href=""><span class="visually-hidden">купить</span></a>
@@ -304,7 +327,8 @@
             </li>
             <li class="popular-icecream-list-item">
               <a class="popular-icecream-image-link" href=""><img src="images/ice-cream-round/lemon-round.jpg"
-                  alt="Лимонный пломбир" class="popular-icecream-image" width="168" height="168"></a>
+                  alt="Лимонный пломбир" class="popular-icecream-image" width="168" height="168" /></a>
+
               <h3 class="popular-icecream-title"><a class="popular-icecream-title-link" href="">Лимон</a></h3>
 
               <p class="popular-icecream-list-item-description">Освежающий лимонный сорбет</p>
@@ -315,11 +339,11 @@
             </li>
             <li class="popular-icecream-list-item">
               <a class="popular-icecream-image-link" href=""><img src="images/ice-cream-round/menthol-round.jpg"
-                  alt="Ментольный пломбир" class="popular-icecream-image" width="168" height="168"></a>
+                  alt="Ментольный пломбир" class="popular-icecream-image" width="168" height="168" /></a>
+
               <h3 class="popular-icecream-title"><a class="popular-icecream-title-link" href="">Ментол</a></h3>
 
-              <p class="popular-icecream-list-item-description">Сливочный пломбир
-                с ментоловым сиропом</p>
+              <p class="popular-icecream-list-item-description">Сливочный пломбир с ментоловым сиропом</p>
               <div class="price-container">
                 <b class="product-price">320 ₽/кг</b>
                 <a class="popular-icecream-link" href=""><span class="visually-hidden">купить</span></a>
@@ -327,7 +351,8 @@
             </li>
             <li class="popular-icecream-list-item">
               <a class="popular-icecream-image-link" href=""><img src="images/ice-cream-round/nut-round.jpg"
-                  alt="Орешковый пломбир" class="popular-icecream-image" width="168" height="168"></a>
+                  alt="Орешковый пломбир" class="popular-icecream-image" width="168" height="168" /></a>
+
               <h3 class="popular-icecream-title"><a class="popular-icecream-title-link" href="">Орешек</a></h3>
 
               <p class="popular-icecream-list-item-description">Фисташковый пломбир с шоколадным сиропом</p>
@@ -338,7 +363,8 @@
             </li>
             <li class="popular-icecream-list-item">
               <a class="popular-icecream-image-link" href=""><img src="images/ice-cream-round/creme-brulee-round.jpg"
-                  alt="Пломбир с крем-брюле" class="popular-icecream-image" width="168" height="168"></a>
+                  alt="Пломбир с крем-брюле" class="popular-icecream-image" width="168" height="168" /></a>
+
               <h3 class="popular-icecream-title"><a class="popular-icecream-title-link" href="">Крем-брюле</a></h3>
 
               <p class="popular-icecream-list-item-description">Классическое крем-брюле</p>
@@ -354,7 +380,7 @@
               <li class="pagination-item">
                 <a class="pagination-link pagination-prev pagination-disabled">
                   <span class="visually-hidden">Предыдущая страница</span><img src="images/arrow-right-black.svg"
-                    class="arrow-left not-active-arrow-left" alt="стрелка назад" width="16" height="16">
+                    class="arrow-left not-active-arrow-left" alt="стрелка назад" width="16" height="16" />
                 </a>
               </li>
               <li class="pagination-item">
@@ -375,7 +401,7 @@
               <li class="pagination-item">
                 <a class="pagination-link pagination-next" href="#">
                   <span class="visually-hidden">Следующая страница</span><img src="images/arrow-right-black.svg"
-                    class="arrow-right " alt="стрелка назад" width="16" height="16">
+                    class="arrow-right" alt="стрелка назад" width="16" height="16" />
                 </a>
               </li>
             </ul>
@@ -389,19 +415,19 @@
           <li class="social-item">
             <a class="button" href="https://www.youtube.com/user/htmlacademyru"> <span
                 class="visually-hidden">Юттуб</span><img src="images/youtube.svg" width="24" height="24" alt="иконка ютуба"
-                class="social-icon"> </a>
+                class="social-icon" /> </a>
           </li>
           <li class="social-item">
             <a class="button" href="https://vk.com/htmlacademy"> <span class="visually-hidden">ВКонтакте</span><img
-                src="images/vk.svg" alt="иконка вк" width="24" height="24" class="social-icon">
-            </a>
+                src="images/vk.svg" alt="иконка вк" width="24" height="24" class="social-icon" /> </a>
           </li>
           <li class="social-item">
             <a class="button" href="https://t.me/htmlacademy"> <span class="visually-hidden">Телеграм</span><img
-                src="images/telegram.svg" alt="иконка ютуба" width="24" height="24" class="social-icon"> </a>
+                src="images/telegram.svg" alt="иконка ютуба" width="24" height="24" class="social-icon" /> </a>
           </li>
         </ul>
-        <div class="heart-container"><img src="images/heart.svg" width="16" height="16" alt="сердечко" class="heart">
+        <div class="heart-container">
+          <img src="images/heart.svg" width="16" height="16" alt="сердечко" class="heart" />
           <ul class="provider-list">
             <li class="provider-list-item"><a href="" class="provider-item-link">Для поставщиков</a></li>
             <li class="provider-list-item"><a href="" class="provider-item-link">Наши документы</a></li>
@@ -411,7 +437,8 @@
         </div>
         <div class="studuio-card">
           <a href="https://htmlacademy.ru/" class="logo-link"><img src="images/logo_htmlacademy.svg"
-              alt="Логотип htmlacademy" class="logo" width="93" height="26"></a>
+              alt="Логотип htmlacademy" class="logo" width="93" height="26" /></a>
+
           <p class="studuio-description">Сделано в <a href="" class="studio-link">.html academy</a> © 2021</p>
         </div>
       </div>
@@ -425,12 +452,14 @@
           </button>
           <form class="modal-form" action="https://echo.htmlacademy.ru/" method="get">
             <h2 class="modal-title">Мы обязательно ответим вам!</h2>
-            <input type="text" name="modal-name-surname" placeholder="Имя и фамилия" class="modal-input">
-            <input type="text" name="modal-email" placeholder="email@example.com" class="modal-input">
-            <input type="text" name="modal-text" placeholder="В свободной форме" class="modal-input">
-          <button class=" newsleter-button button modal-button" type="submit"> Отправить </button>
+            <input type="text" name="modal-name-surname" placeholder="Имя и фамилия" class="modal-input error" required />
+            <input type="text" name="modal-email" placeholder="email@example.com" class="modal-input" required />
+            <input type="text" name="modal-text" placeholder="В свободной форме" class="modal-input" required />
+
+            <button class="newsleter-button button modal-button" type="submit">Отправить</button>
           </form>
         </div>
       </div>
-      </div>
-</html>
+    </div>
+
+    </html>
