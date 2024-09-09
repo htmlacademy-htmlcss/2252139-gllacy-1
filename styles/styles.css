@@ -266,7 +266,6 @@ body {
   margin: 0;
   display: flex;
   padding: 0;
-  flex-direction: row-reverse;
   gap: 16px;
 }
 .provider-list {
@@ -1967,4 +1966,17 @@ color: rgba(45, 52, 64, 0.6);
 border: 1px solid rgba(185, 185, 185, 1);
 background-color: rgba(231, 231, 231, 1);
 color: rgba(45, 52, 64, 1);
+}
+.footer-container .social-list .button{
+  height: 24px;
+  display: block;
+  border-radius: 50%;
+}
+.footer-container .social-list .button:active{
+    background-color: #2d3440;
+    opacity: 50%;
+}
+.footer-container .social-list .button:focus-visible{
+    background-color: #2b3440;
+    box-shadow: 0 0 0 2px #2D3440;
 }
