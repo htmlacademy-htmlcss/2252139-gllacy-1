@@ -1885,7 +1885,7 @@ a.button-popover-basket {
   color: rgba(45, 52, 64, 1);
 }
 .popover-entrance input:focus-visible {
-  border: 2px solid rgba(45, 52, 64, 1);
+  outline: 2px solid rgba(45, 52, 64, 1);
   color: rgba(45, 52, 64, 1);
 }
 .popover-entrance input:disabled {
@@ -1903,7 +1903,7 @@ a.button-popover-basket {
   color: rgba(45, 52, 64, 1);
 }
 .search-input-form:focus-visible {
-  border: 2px solid rgba(45, 52, 64, 1);
+  outline: 2px solid rgba(45, 52, 64, 1);
   color: rgba(45, 52, 64, 1);
 }
 .search-input-form:disabled {
@@ -1931,7 +1931,7 @@ a.button-popover-basket {
   color: rgba(45, 52, 64, 1);
 }
 .delivery-card .label:focus-visible {
-  border: 2px solid rgba(45, 52, 64, 1);
+  outline: 2px solid rgba(45, 52, 64, 1);
   color: rgba(45, 52, 64, 1);
 }
 .delivery-card .label {
@@ -1954,8 +1954,8 @@ a.button-popover-basket {
   color: rgba(45, 52, 64, 1);
 }
 .newslater-input-form:focus-visible {
-  border: 2px solid rgba(45, 52, 64, 1);
   color: rgba(45, 52, 64, 1);
+  outline: 2px solid rgba(45, 52, 64, 1);
 }
 .newslater-input-form:disabled {
   border: 1px solid rgba(185, 185, 185, 1);
