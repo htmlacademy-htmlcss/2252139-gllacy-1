@@ -1976,3 +1976,7 @@ a.button-popover-basket {
   background-color: #2b3440;
   box-shadow: 0 0 0 2px #2d3440;
 }
+.cotolog-container:hover + .popover-cotolog{display: block;}
+.search:hover + .popover-search{display: block;}
+.entrance:hover + .popover-entrance{display: block;}
+.basket:hover + .popover-basket{display:block}
