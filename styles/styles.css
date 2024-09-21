@@ -1344,6 +1344,7 @@ input[type="range"] {
   color: #b9b9b9;
   border: 1px solid #b9b9b9;
   border-radius: 4px;
+  height: 48px;
 }
 .modal-input:last-child {
   margin-bottom: 32px;
