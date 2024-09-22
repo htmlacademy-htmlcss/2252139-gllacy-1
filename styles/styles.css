@@ -1984,3 +1984,7 @@ a.button-popover-basket {
 .search:hover + .popover-search{display: block;}
 .entrance:hover + .popover-entrance{display: block;}
 .basket:hover + .popover-basket{display:block}
+.slider-pagination
+{
+  flex-wrap: wrap;
+}
