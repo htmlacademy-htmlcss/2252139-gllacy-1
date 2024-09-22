@@ -239,10 +239,11 @@ body {
 }
 .all-news {
   display: flex;
+  align-items: flex-start;
 }
 .news {
   width: 538px;
-  height: 224px;
+  min-height: 224px;
 }
 .news:first-child {
   margin-right: 30px;
@@ -636,7 +637,7 @@ section:last-child {
 background-color: #fff;
   background-size: 100% 100%;
   width: 570px;
-  height: 224px;
+  min-height: 224px;
   background-repeat: no-repeat;
   border-radius: 16px;
 }
