@@ -1989,3 +1989,6 @@ a.button-popover-basket {
   flex-wrap: wrap;
 }
 .body input{font-family: inherit}
+.breadcrumbs{
+  flex-wrap: wrap;
+}
