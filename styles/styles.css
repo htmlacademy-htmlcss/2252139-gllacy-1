@@ -218,10 +218,11 @@ body {
   list-style: none;
   display: flex;
   padding: 0;
+  align-self: flex-end;
+  gap: 30px;
 }
 .present-list-item {
   width: 570px;
-  margin-right: 30px;
 }
 .present-list-item:last-child {
   margin-right: 0;
@@ -537,6 +538,7 @@ section:last-child {
 .present-list-item-inner {
   margin-left: 36px;
   margin-right: 11px;
+  padding-bottom: 36px;
 }
 .present-list-item-inner .button-link {
   margin: 0;
@@ -1996,5 +1998,11 @@ a.button-popover-basket {
   flex-wrap: wrap;
 }
 .social-list{
+  flex-wrap: wrap;
+}
+.present-list{
+  align-items: flex-start;
+}
+.present-list{
   flex-wrap: wrap;
 }
