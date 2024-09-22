@@ -467,7 +467,7 @@ body {
 }
 .icecream-description {
   margin-top: 0;
-  margin-bottom: 60px;
+  margin-bottom: 48px;
 }
 
 .button-link {
@@ -475,6 +475,9 @@ body {
   background-color: rgba(252, 252, 252, 1);
   margin-bottom: 126px;
   border-radius: 26px;
+}
+.collector .button-link{
+  display: inline-flex;
 }
 .collector .button-link,
 .present-list .button-link {
@@ -503,7 +506,7 @@ body {
   background-color: rgba(231, 231, 231, 1);
 }
 .first-demonstration-icecream-container {
-  height: 554px;
+  min-height: 554px;
   width: 1170px;
 }
 section {
