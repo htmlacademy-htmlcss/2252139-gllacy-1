@@ -671,7 +671,7 @@ aside {
 }
 .delivery {
   background-image: url(../images/back-many-food.png);
-  height: 534px;
+  min-height: 534px;
   background-repeat: no-repeat;
   border-radius: 16px;
   background-size: 100%;
