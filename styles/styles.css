@@ -1988,3 +1988,4 @@ a.button-popover-basket {
 {
   flex-wrap: wrap;
 }
+.body input{font-family: inherit}
