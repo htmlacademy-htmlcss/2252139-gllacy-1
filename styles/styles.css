@@ -233,6 +233,8 @@ body {
   list-style: none;
   padding: 0;
   column-gap: 30px;
+  row-gap: 81px;
+  flex-wrap: wrap;
 }
 .all-news {
   display: flex;
