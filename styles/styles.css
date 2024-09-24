@@ -183,7 +183,7 @@ body {
 }
 .logo-link {
   margin-bottom: 14px;
-  display: block;
+  display: contents;
   height: 27px;
   margin-right: 16px;
 }
@@ -357,6 +357,7 @@ body {
   padding: 0;
   flex-wrap: wrap;
   align-items: center;
+  margin-left: 16px;
 }
 .navigation {
   padding: 24px 0;
@@ -2010,4 +2011,7 @@ a.button-popover-basket {
 }
 .present-list{
   flex-wrap: wrap;
+}
+.contacts-phone:hover{
+  background-color: #feafc3;
 }
