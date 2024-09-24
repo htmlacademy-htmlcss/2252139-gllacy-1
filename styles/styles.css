@@ -481,6 +481,7 @@ body {
 }
 .collector .button-link{
   display: inline-flex;
+  font-weight: 700;
 }
 .collector .button-link,
 .present-list .button-link {
@@ -544,6 +545,7 @@ section:last-child {
 }
 .present-list-item-inner .button-link {
   margin: 0;
+  font-weight: 700;
 }
 .popular-title {
   width: 527px;
@@ -655,6 +657,7 @@ background-color: #fff;
   border: 1px solid rgba(185, 185, 185, 1);
   border-radius: 3px;
   box-sizing: border-box;
+  font-size: 16px;
 }
 .newsleter-button {
   padding: 12px 32px;
@@ -1944,6 +1947,7 @@ a.button-popover-basket {
   height: 48px;
   border-radius: 3px;
   line-height: 20px;
+  font-size: 16px;
 }
 .delivery-card .label:disabled {
   border: 1px solid rgba(185, 185, 185, 1);
