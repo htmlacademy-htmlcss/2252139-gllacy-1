@@ -886,11 +886,6 @@ input.price {
 .form-container.filler {
   margin-bottom: 44px;
 }
-.entrance-navigation {
-  margin-right: 6px;
-  display: inline-block;
-  transform: translateY(3px);
-}
 .basket-navigation {
   margin-right: 6px;
   transform: translateY(3px);
@@ -2036,4 +2031,33 @@ outline: 2px solid rgb(45, 52, 64);
 }
 .range-toggle:focus-visible .range-inner-container{
   background-color:rgb(45, 52, 64) ;
+}
+.entrance{
+  background-image: url("../images/entrance.svg");
+  background-size: 16px 16px;
+width: 88px;
+box-sizing: border-box;
+background-repeat: no-repeat;
+text-align: right;
+background-position-x:16px ;
+background-position-y:8px ;
+}
+.nav-link.search{
+  background-image: url("../images/search.svg");
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  width: 32px;
+  height: 32px;
+  box-sizing: border-box;
+  background-position: 50% 50%;
+}
+.basket{
+  background-image: url("../images/basket.svg");
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  width:115px ;
+  box-sizing: border-box;
+background-position-x:16px ;
+background-position-y:8px ;
+text-align: right;
 }
