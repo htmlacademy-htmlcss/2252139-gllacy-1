@@ -350,7 +350,6 @@ body {
 }
 .catalog-filter {
   display: flex;
-  width: 823px;
   flex-wrap: wrap;
 }
 .navigation-list {
@@ -1159,7 +1158,7 @@ input[type="range"] {
 }
 .catalog-filter-list-first {
   background-color: rgba(252, 252, 252, 0.3);
-  width: 389px;
+  min-width: 389px;
   box-sizing: border-box;
   padding: 8px 24px;
   border-radius: 18px;
@@ -1171,7 +1170,7 @@ input[type="range"] {
   margin-right: 0;
 }
 .catalog-filter-list-two {
-  width: 605px;
+  min-width: 605px;
   box-sizing: border-box;
   padding: 10px 24px;
   background-color: rgba(252, 252, 252, 0.3);
