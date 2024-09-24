@@ -53,7 +53,7 @@ body {
   line-height: 46px;
   color: #2d3440;
 }
-.icecream-description {
+.ice-cream-description {
   font-size: 18px;
   line-height: 24px;
   color: #2d3440;
@@ -86,7 +86,7 @@ body {
   color: #2d3440;
   text-align: center;
 }
-.popular-icecream-title-link {
+.popular-ice-cream-title-link {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
@@ -128,7 +128,7 @@ body {
   font-weight: 700;
   display: block;
 }
-.adress-link {
+.address-link {
   text-decoration: none;
   color: #2d3440;
   font-weight: 700;
@@ -151,7 +151,7 @@ body {
   font-size: 14px;
   line-height: 20px;
 }
-.studuio-description {
+.studio-description {
   font-size: 12px;
   line-height: 16px;
 }
@@ -193,7 +193,7 @@ body {
   width: 1170px;
   margin: 0 auto;
 }
-.first-demonstration-icecream {
+.first-demonstration-ice-cream {
   display: flex;
 }
 .collector {
@@ -207,7 +207,7 @@ body {
   background-position: center;
   transform: scale(-1) translateX(-22px);
 }
-.first-demonstration-icecream-container {
+.first-demonstration-ice-cream-container {
   order: -2;
 }
 .present-list {
@@ -224,7 +224,7 @@ body {
 .present-list-item:last-child {
   margin-right: 0;
 }
-.popular-icecream-list {
+.popular-ice-cream-list {
   display: flex;
   margin: 0;
   list-style: none;
@@ -255,7 +255,7 @@ body {
 .delivery-card {
   width: 420px;
 }
-.adress-card {
+.address-card {
   width: 1170px;
 }
 .main-footer {
@@ -275,7 +275,7 @@ body {
   list-style: none;
   width: 356px;
 }
-.studuio-card {
+.studio-card {
   width: 193px;
 }
 .about-list {
@@ -410,7 +410,7 @@ body {
   display: flex;
   margin-right: auto;
 }
-.slide-image-curent {
+.slide-image-current {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -457,7 +457,7 @@ body {
 .slider-button.slider-next:disabled {
   opacity: 40%;
 }
-.slider-image-curent {
+.slider-image-current {
   order: -1;
 }
 .slider-title {
@@ -465,7 +465,7 @@ body {
   margin-bottom: 24px;
   width: 470px;
 }
-.icecream-description {
+.ice-cream-description {
   margin-top: 0;
   margin-bottom: 48px;
 }
@@ -505,7 +505,7 @@ body {
   color: rgba(185, 185, 185, 1);
   background-color: rgb(231, 231, 231);
 }
-.first-demonstration-icecream-container {
+.first-demonstration-ice-cream-container {
   min-height: 554px;
   width: 1170px;
 }
@@ -548,11 +548,11 @@ section:last-child {
   margin: 0 auto;
   margin-bottom: 107px;
 }
-.popular-icecream-list-item-description {
+.popular-ice-cream-list-item-description {
   width: 190px;
   margin-top: 0;
 }
-.popular-icecream-list-item {
+.popular-ice-cream-list-item {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -561,11 +561,11 @@ section:last-child {
   padding-right: 40px;
   background-color: rgb(252, 252, 252);
 }
-.popular-icecream-title {
+.popular-ice-cream-title {
   margin: 0;
   margin-bottom: 8px;
 }
-.popular-icecream-image {
+.popular-ice-cream-image {
   border-radius: 50%;
 }
 .price-container {
@@ -573,12 +573,12 @@ section:last-child {
   justify-content: space-between;
   width: 190px;
 }
-.popular-icecream-link {
+.popular-ice-cream-link {
   width: 32px;
   height: 32px;
   background-color: rgb(255, 47, 100);
 }
-.popular-icecream-image-link {
+.popular-ice-cream-image-link {
   height: 168px;
   margin-bottom: 16px;
 }
@@ -603,7 +603,7 @@ section:last-child {
 .news {
   display: flex;
   flex-direction: column;
-  background-image: url("../images/back-icecream.png");
+  background-image: url("../images/back-ice-cream.png");
   background-repeat: no-repeat;
   background-size: 115%;
   background-position-x: -15px;
@@ -655,7 +655,7 @@ background-color: #fff;
   box-sizing: border-box;
   font-size: 16px;
 }
-.newsleter-button {
+.newsletter-button {
   padding: 12px 32px;
   border: 1px;
   width: 152px;
@@ -722,10 +722,10 @@ aside {
   margin-top: 0;
   margin-bottom: 0;
 }
-.delivery-form-adress {
+.delivery-form-address {
   margin: 0;
 }
-.label-adress {
+.label-address {
   width: 420px;
   border: 1px solid rgb(185, 185, 185);
   padding: 0;
@@ -741,8 +741,8 @@ aside {
   display: block;
   margin: 0 auto;
 }
-.adress-card {
-  background-image: url("../images/three-icecream.jpg");
+.address-card {
+  background-image: url("../images/three-ice-cream.jpg");
   padding: 64px 0;
   background-size: cover;
   background-repeat: no-repeat;
@@ -750,12 +750,12 @@ aside {
   background-position: 0 -80px;
   background-color: aliceblue;
 }
-.adress-card-description {
+.address-card-description {
   width: 179px;
   margin: 0;
   margin-bottom: 12px;
 }
-.adress-card-date {
+.address-card-date {
   padding: 40px;
   background-color: rgb(252, 252, 252);
   width: 263px;
@@ -768,10 +768,10 @@ aside {
 .phone-description {
   width: 203px;
 }
-.adress-link {
+.address-link {
   margin-bottom: 24px;
 }
-.adress-card-date .button-link {
+.address-card-date .button-link {
   margin: 0;
   width: 186px;
   background-color: rgb(255, 47, 100);
@@ -781,27 +781,27 @@ aside {
   font-weight: 700;
   box-shadow: 0 0 0 4px rgba(255, 47, 100, 0.3);
 }
-.adress-card-date .button-link:hover {
+.address-card-date .button-link:hover {
   color: rgba(45, 52, 64, 1);
   background-color: rgba(252, 252, 252, 0.3);
   box-shadow: 0 0 0 4px rgb(255, 47, 100);
 }
-.adress-card-date .button-link:active {
+.address-card-date .button-link:active {
   background-color: rgb(254, 175, 195);
   box-shadow: 0 0 0 2px rgb(45, 52, 64);
 }
-.adress-card-date .button-link:focus-visible {
+.address-card-date .button-link:focus-visible {
   background-color: rgb(255, 47, 100);
   box-shadow: 0 0 0 2px rgb(45, 52, 64);
 }
-.adress-card-date .button-link:disabled {
+.address-card-date .button-link:disabled {
   background-color: rgb(185, 185, 185);
   font-weight: 400;
   font-size: 16px;
   color: rgb(86, 92, 102);
   box-shadow: 0 0 0 4px rgba(185, 185, 185, 0.3);
 }
-.adress-number-description {
+.address-number-description {
   margin-bottom: 32px;
 }
 .footer-container {
@@ -824,7 +824,7 @@ aside {
 .provider-list-item {
   height: 20px;
 }
-.studuio-description {
+.studio-description {
   margin: 0;
   color: #2d3440;
 }
@@ -921,7 +921,7 @@ input.price {
   box-shadow: 0 0 0 2px rgba(252, 252, 252, 0.3);
   border-radius: 24px;
 }
-.slider-image-curent {
+.slider-image-current {
   z-index: 2;
 }
 .under-image-current {
@@ -963,16 +963,16 @@ input.price {
   border-radius: 50%;
   transform: translate(565px);
 }
-.popular-icecream-list-item-description {
+.popular-ice-cream-list-item-description {
   text-align: center;
 }
 .product-price {
   align-self: center;
 }
-.popular-icecream-list-item {
+.popular-ice-cream-list-item {
   border-radius: 8px;
 }
-.popular-icecream-link {
+.popular-ice-cream-link {
   background-image: url("../images/basket-white.svg");
   background-repeat: no-repeat;
   background-size: 16px 16px;
@@ -980,33 +980,33 @@ input.price {
   border-radius: 50%;
   box-sizing: border-box;
 }
-.popular-icecream-link:hover {
+.popular-ice-cream-link:hover {
   background-image: url("../images/basket.svg");
   background-color: rgba(252, 252, 252, 0.3);
   border: 2px solid rgb(255, 47, 100);
 }
-.popular-icecream-link:active {
+.popular-ice-cream-link:active {
   background-image: url("../images/basket.svg");
   background-color: rgb(255, 203, 216);
   border: 2px solid rgb(255, 47, 100);
 }
-.popular-icecream-link:focus-visible {
+.popular-ice-cream-link:focus-visible {
   background-image: url("../images/basket-white.svg");
   background-color: rgb(255, 47, 100);
   border: 2px solid rgb(45, 52, 64);
 }
-.popular-icecream-link:disabled {
+.popular-ice-cream-link:disabled {
   background-image: url("../images/basket-grey.svg");
   background-color: rgb(185, 185, 185);
 }
-.popular-icecream-image {
+.popular-ice-cream-image {
   margin-top: -51px;
 }
-.popular-icecream-image-link {
+.popular-ice-cream-image-link {
   margin-bottom: -35px;
 }
 .delivery-form-button,
-.newsleter-button {
+.newsletter-button {
   padding: 12px 32px;
   border-radius: 26px;
   font-weight: 700;
@@ -1015,23 +1015,23 @@ input.price {
   box-sizing: border-box;
 }
 .delivery-form-button:hover,
-.newsleter-button:hover {
+.newsletter-button:hover {
   color: rgba(45, 52, 64, 1);
   background-color: rgba(252, 252, 252, 0.3);
   box-shadow: 0 0 0 4px rgb(255, 47, 100);
 }
 .delivery-form-button:active,
-.newsleter-button:active {
+.newsletter-button:active {
   background-color: rgb(254, 175, 195);
   box-shadow: 0 0 0 2px rgb(45, 52, 64);
 }
 .delivery-form-button:focus-visible,
-.newsleter-button:focus-visible {
+.newsletter-button:focus-visible {
   background-color: rgb(255, 47, 100);
   box-shadow: 0 0 0 2px rgb(45, 52, 64);
 }
 .delivery-form-button:disabled,
-.newsleter-button:disabled {
+.newsletter-button:disabled {
   background-color: rgb(185, 185, 185);
   font-weight: 400;
   font-size: 16px;
@@ -1065,7 +1065,7 @@ input.price {
   margin-top: 4px;
   margin-right: 8px;
 }
-.cotolog-container {
+.catalog-container {
   border: 0;
   background-color: #feafc3;
   color: #2d3440;
@@ -1073,10 +1073,10 @@ input.price {
   font-family: "Inter";
   padding: 8px 16px;
 }
-.cotolog-container-none {
+.catalog-container-none {
   display: none;
 }
-.cotolog-container-active {
+.catalog-container-active {
   border: 0;
   background-color: rgb(255, 74, 120);
   color: rgb(252, 252, 252);
@@ -1086,26 +1086,26 @@ input.price {
   border-radius: 30px;
   cursor: pointer;
 }
-.cotolog-container:hover {
+.catalog-container:hover {
   background-color: rgba(252, 252, 252, 0.5);
   border-radius: 30px;
 }
-.cotolog-container:active {
+.catalog-container:active {
   background-color: rgb(252, 252, 252);
   border-radius: 30px;
 }
-.cotolog-container:focus-visible {
+.catalog-container:focus-visible {
   box-shadow: 0 0 0 2px solid rgb(45, 52, 64);
   background-color: rgba(252, 252, 252, 0.5);
   border-radius: 30px;
 }
-.cotolog-container-active:hover {
+.catalog-container-active:hover {
   opacity: 60%;
 }
-.cotolog-container-active:active {
+.catalog-container-active:active {
   opacity: 30%;
 }
-.cotolog-container-active:focus-visible {
+.catalog-container-active:focus-visible {
   border-radius: 30px;
   box-shadow: 0 0 0 2px solid rgb(0, 0, 0);
 }
@@ -1294,7 +1294,7 @@ input[type="range"] {
 .slider-pagination-button {
   cursor: pointer;
 }
-.cotolog-container {
+.catalog-container {
   cursor: pointer;
 }
 .slider-button {
@@ -1447,7 +1447,7 @@ input[type="range"] {
 .nav-link.basket-active:focus-visible {
   border: 2px solid black;
 }
-.popover-cotolog {
+.popover-catalog {
   width: 138px;
   min-height: 188px;
   padding: 8px 0;
@@ -1458,7 +1458,7 @@ input[type="range"] {
   top: 40px;
   display: none;
 }
-.popover-cotolog-title {
+.popover-catalog-title {
   font-family: "Inter";
   font-weight: 700;
   font-size: 14px;
@@ -1468,28 +1468,28 @@ input[type="range"] {
   margin-top: 0;
   margin-bottom: 4px;
 }
-.popover-cotolog-border {
+.popover-catalog-border {
   border-bottom: 1px solid rgb(185, 185, 185);
   width: 103px;
   margin: 0 auto;
   margin-bottom: 4px;
 }
-.popover-cotolog-item a {
+.popover-catalog-item a {
   margin: 0;
   padding: 6px 16px;
   font-size: 14px;
   display: block;
 }
-.popover-cotolog-item a:hover{
+.popover-catalog-item a:hover{
   background-color: rgb(255, 203, 216);
 }
-.popover-cotolog-item a:active{
+.popover-catalog-item a:active{
   background-color: rgb(255, 119, 153);
 }
-.popover-cotolog-item-current{
+.popover-catalog-item-current{
   background-color: rgb(255, 74, 120);
 }
-.popover-cotolog-list {
+.popover-catalog-list {
   padding: 0;
   list-style: none;
 }
@@ -1990,7 +1990,7 @@ a.button-popover-basket {
   background-color: #2b3440;
   box-shadow: 0 0 0 2px #2d3440;
 }
-.cotolog-container:hover + .popover-cotolog{display: block;}
+.catalog-container:hover + .popover-catalog{display: block;}
 .search:hover + .popover-search{display: block;}
 .entrance:hover + .popover-entrance{display: block;}
 .basket:hover + .popover-basket{display:block}
@@ -2036,7 +2036,4 @@ outline: 2px solid rgb(45, 52, 64);
 }
 .range-toggle:focus-visible .range-inner-container{
   background-color:rgb(45, 52, 64) ;
-}
-.popover{
-  display: block;
 }
