@@ -1781,6 +1781,7 @@ a.button-popover-basket {
   background-color: rgba(86, 92, 102, 1);
 }
 .range-toggle {
+  padding: 0;
   width: 16px;
   height: 16px;
   position: absolute;
@@ -2014,4 +2015,27 @@ a.button-popover-basket {
 }
 .contacts-phone:hover{
   background-color: #feafc3;
+}
+.range-inner-container{
+  width: 4px;
+  height: 4px;
+  background-color: rgba(252, 252, 252, 1);
+  border-radius: 50%;
+  margin-left: 6px;
+}
+.range-toggle:hover{
+background-color: rgba(252, 252, 252, 1);
+}
+.range-toggle:hover .range-inner-container{
+  background-color: rgba(45, 52, 64, 1);
+}
+.range-toggle:active{
+background-color: rgba(45, 52, 64, 1);
+}
+.range-toggle:focus-visible{
+background-color: rgba(252, 252, 252, 1);
+outline: 2px solid rgba(45, 52, 64, 1);
+}
+.range-toggle:focus-visible .range-inner-container{
+  background-color:rgba(45, 52, 64, 1) ;
 }
