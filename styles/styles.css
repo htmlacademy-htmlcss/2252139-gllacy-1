@@ -2,7 +2,7 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  src: url(../fonts/inter-400.woff2) format("woff2");
+  src: url("../fonts/inter-400.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -10,7 +10,7 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  src: url(../fonts/inter-700.woff2) format("woff2");
+  src: url("../fonts/inter-700.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -18,7 +18,7 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 900;
-  src: url(../fonts/inter-900.woff2) format("woff2");
+  src: url("../fonts/inter-900.woff2") format("woff2");
   font-display: swap;
 }
 html {
@@ -204,7 +204,7 @@ body {
 }
 .slider-prev {
   order: -1;
-  background-image: url(../images/arrow.svg);
+  background-image: url("../images/arrow.svg");
   background-repeat: no-repeat;
   background-position: center;
   transform: scale(-1) translateX(-22px);
@@ -423,35 +423,35 @@ body {
 .slider-button.slider-next {
   order: -1;
   transform: translateX(-14px);
-  background-image: url(../images/arrow.svg);
+  background-image: url("../images/arrow.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 .slider-button.slider-next:hover {
-  background-image: url(../images/Arrow-right-black.svg);
+  background-image: url("../images/Arrow-right-black.svg");
   background-color: rgba(255, 255, 255, 1);
 }
 .slider-button.slider-prev:hover {
-  background-image: url(../images/Arrow-right-black.svg);
+  background-image: url("../images/Arrow-right-black.svg");
   background-color: rgba(255, 255, 255, 1);
 }
 .slider-button.slider-next:active {
-  background-image: url(../images/Arrow-right-black.svg);
+  background-image: url("../images/Arrow-right-black.svg");
   background-color: rgba(252, 252, 252, 0.5);
   border: none;
 }
 .slider-button.slider-prev:active {
-  background-image: url(../images/Arrow-right-black.svg);
+  background-image: url("../images/Arrow-right-black.svg");
   background-color: rgba(252, 252, 252, 0.5);
   border: none;
 }
 .slider-button.slider-next:focus-visible {
-  background-image: url(../images/Arrow-right-black.svg);
+  background-image: url("../images/Arrow-right-black.svg");
   background-color: rgba(252, 252, 252, 0.3);
   border: 2px solid rgba(45, 52, 64, 1);
 }
 .slider-button.slider-prev:focus-visible {
-  background-image: url(../images/Arrow-right-black.svg);
+  background-image: url("../images/Arrow-right-black.svg");
   background-color: rgba(252, 252, 252, 0.3);
   border: 2px solid rgba(45, 52, 64, 1);
 }
@@ -588,7 +588,7 @@ section:last-child {
   margin-bottom: 16px;
 }
 .about {
-  background-image: url(../images/waffle.png);
+  background-image: url("../images/waffle.png");
   padding: 24px;
   background-size: 100% 100%;
 }
@@ -608,7 +608,7 @@ section:last-child {
 .news {
   display: flex;
   flex-direction: column;
-  background-image: url(../images/back-icecream.png);
+  background-image: url("../images/back-icecream.png");
   background-repeat: no-repeat;
   background-size: 115%;
   background-position-x: -15px;
@@ -633,7 +633,7 @@ section:last-child {
   border-radius: 16px;
 }
 .news-email {
-  background-image: url(../images/back-line.png);
+  background-image: url("../images/back-line.png");
 background-color: #fff;
   background-size: 100% 100%;
   width: 570px;
@@ -671,7 +671,7 @@ aside {
   margin-bottom: 80px;
 }
 .delivery {
-  background-image: url(../images/back-many-food.png);
+  background-image: url("../images/back-many-food.png");
   min-height: 534px;
   background-repeat: no-repeat;
   border-radius: 16px;
@@ -747,7 +747,7 @@ aside {
   margin: 0 auto;
 }
 .adress-card {
-  background-image: url(../images/three-icecream.jpg);
+  background-image: url("../images/three-icecream.jpg");
   padding: 64px 0;
   background-size: cover;
   background-repeat: no-repeat;
@@ -978,7 +978,7 @@ input.price {
   border-radius: 8px;
 }
 .popular-icecream-link {
-  background-image: url(../images/basket-white.svg);
+  background-image: url("../images/basket-white.svg");
   background-repeat: no-repeat;
   background-size: 16px 16px;
   background-position: 50% 50%;
@@ -986,22 +986,22 @@ input.price {
   box-sizing: border-box;
 }
 .popular-icecream-link:hover {
-  background-image: url(../images/basket.svg);
+  background-image: url("../images/basket.svg");
   background-color: rgba(252, 252, 252, 0.3);
   border: 2px solid rgba(255, 47, 100, 1);
 }
 .popular-icecream-link:active {
-  background-image: url(../images/basket.svg);
+  background-image: url("../images/basket.svg");
   background-color: rgba(255, 203, 216, 1);
   border: 2px solid rgba(255, 47, 100, 1);
 }
 .popular-icecream-link:focus-visible {
-  background-image: url(../images/basket-white.svg);
+  background-image: url("../images/basket-white.svg");
   background-color: rgba(255, 47, 100, 1);
   border: 2px solid rgba(45, 52, 64, 1);
 }
 .popular-icecream-link:disabled {
-  background-image: url(../images/basket-grey.svg);
+  background-image: url("../images/basket-grey.svg");
   background-color: rgba(185, 185, 185, 1);
 }
 .popular-icecream-image {
@@ -1122,7 +1122,7 @@ input.price {
   bottom: 2px;
 }
 .breadcrumbs-item:not(:first-child)::before {
-  content: url(../images/duble-arrow.svg);
+  content: url("../images/duble-arrow.svg");
   margin-right: 6px;
   bottom: 1px;
   position: relative;
@@ -1372,7 +1372,7 @@ input[type="range"] {
   margin-bottom: 32px;
 }
 .modal-close-button {
-  background-image: url(../images/obelisk.svg);
+  background-image: url("../images/obelisk.svg");
   background-repeat: no-repeat;
   background-position: center;
   border: 0;
@@ -1816,28 +1816,28 @@ a.button-popover-basket {
   left: 0;
   width: 16px;
   height: 16px;
-  background-image: url(../images/checkbox-black.svg);
+  background-image: url("../images/checkbox-black.svg");
 }
 .control:hover .control-mark {
-  background-image: url(../images/checked-white.svg);
+  background-image: url("../images/checked-white.svg");
 }
 
 .control-input:disabled + .control-mark {
   opacity: 50%;
 }
 .control-input:focus + .control-mark {
-  background-image: url(../images/checked-white.svg);
+  background-image: url("../images/checked-white.svg");
   outline: 1px solid rgb(95, 95, 255);
 }
 .control-input[type="checkbox"]:checked:focus + .control-mark {
-  background-image: url(../images/checkbox-white-checked.svg);
+  background-image: url("../images/checkbox-white-checked.svg");
   outline: 1px solid rgb(95, 95, 255);
 }
 .control-input[type="checkbox"]:checked + .control-mark {
-  background-image: url(../images/checkbox-checked-black.svg);
+  background-image: url("../images/checkbox-checked-black.svg");
 }
 .control-input[type="checkbox"]:checked:hover + .control-mark {
-  background-image: url(../images/checkbox-white-checked.svg);
+  background-image: url("../images/checkbox-white-checked.svg");
 }
 .control-input[type="checkbox"]:checked:disabled + .control-mark {
   opacity: 50%;
@@ -1848,21 +1848,21 @@ a.button-popover-basket {
   left: 0;
   width: 16px;
   height: 16px;
-  background-image: url(../images/radio-black.svg);
+  background-image: url("../images/radio-black.svg");
 }
 .control-input[type="radio"]:hover + .control-mark {
-  background-image: url(../images/radio-white.svg);
+  background-image: url("../images/radio-white.svg");
 }
 .control-input[type="radio"]:focus + .control-mark {
   outline: 1px solid rgb(95, 95, 255);
   border-radius: 50%;
 }
 .control-input[type="radio"]:checked + .control-mark {
-  background-image: url(../images/radio-black-cheked.svg);
+  background-image: url("../images/radio-black-cheked.svg");
 }
 
 .control-input[type="radio"]:checked:hover + .control-mark {
-  background-image: url(../images/radio-white-cheked.svg);
+  background-image: url("../images/radio-white-cheked.svg");
 }
 .control-input[type="radio"]:disabled + .control-mark {
   opacity: 40%;
@@ -2038,4 +2038,7 @@ outline: 2px solid rgba(45, 52, 64, 1);
 }
 .range-toggle:focus-visible .range-inner-container{
   background-color:rgba(45, 52, 64, 1) ;
+}
+.popover{
+  display: block;
 }
