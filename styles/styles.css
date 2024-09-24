@@ -293,7 +293,6 @@ body {
 }
 .about-description {
   width: 442px;
-  height: 66px;
   margin: 0;
 }
 .about-description-image {
@@ -602,7 +601,6 @@ section:last-child {
   margin-bottom: 56px;
 }
 .about-list-item {
-  height: 66px;
   margin-bottom: 40px;
 }
 .news {
