@@ -2085,3 +2085,29 @@ background-color: rgb(45, 52, 64);
 box-shadow: none;
 outline: 2px solid rgb(45, 52, 64);;
 }
+.about-list-item{
+  width: 506px;
+}
+.about-description{
+  margin-left: auto;
+}
+.about-list-item:nth-child(1){
+  background-image: url("../images/ice-cream.svg");
+  background-repeat: no-repeat;
+  background-size: 48px 48px;
+}
+.about-list-item:nth-child(2){
+  background-image: url("../images/cow.svg");
+  background-repeat: no-repeat;
+  background-size: 48px 48px;
+}
+.about-list-item:nth-child(3){
+  background-image: url("../images/leaf.svg");
+  background-repeat: no-repeat;
+  background-size: 48px 48px;
+}
+.about-list-item:nth-child(4){
+  background-image: url("../images/thermometer.svg");
+  background-repeat: no-repeat;
+  background-size: 48px 48px;
+}
