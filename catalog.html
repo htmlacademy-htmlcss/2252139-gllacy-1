@@ -12,22 +12,18 @@
       <nav class="navigation">
         <a href="index.html" class="logo-link"><img src="images/logo.svg" alt="Логотип Gllacy" class="logo" width="137"
             height="55" /></a>
-
         <ul class="navigation-list">
           <li class="navigation-item">
-            <a class="cotolog-container" href="catalog.html">Каталог<img src="images/arrow-black.svg" alt="стрелка вниз"
-                width="11" height="6" class="arrow-bottom" /></a>
-            <a class="cotolog-container-active cotolog-container-none" href="catalog.html">Каталог<img
-                src="images/arrow-white.svg" alt="стрелка вверх" width="11" height="6" class="arrow-bottom" /></a>
-
-            <div class="popover popover-cotolog">
-              <h2 class="popover-cotolog-title">Новинки</h2>
-              <div class="popover-cotolog-border"></div>
-              <ul class="popover-cotolog-list">
-                <li class="popover-cotolog-item"><a href="#" class="popover-cotolog-item-link">Сливочное</a></li>
-                <li class="popover-cotolog-item"><a href="#" class="popover-cotolog-item-link">Щербеты</a></li>
-                <li class="popover-cotolog-item"><a href="#" class="popover-cotolog-item-link">Фруктовый лед</a></li>
-                <li class="popover-cotolog-item"><a href="#" class="popover-cotolog-item-link">Мелорин</a></li>
+            <a class="catalog-container" href="catalog.html">Каталог<img src="images/arrow-black.svg"
+                alt="стрелка вниз" width="11" height="6" class="arrow-bottom" /></a>
+            <div class="popover popover-catalog">
+              <h2 class="popover-catalog-title">Новинки</h2>
+              <div class="popover-catalog-border"></div>
+              <ul class="popover-catalog-list">
+                <li class="popover-catalog-item"><a href="#" class="popover-catalog-item-link">Сливочное</a></li>
+                <li class="popover-catalog-item"><a href="#" class="popover-catalog-item-link">Щербеты</a></li>
+                <li class="popover-catalog-item"><a href="#" class="popover-catalog-item-link">Фруктовый лед</a></li>
+                <li class="popover-catalog-item"><a href="#" class="popover-catalog-item-link">Мелорин</a></li>
               </ul>
             </div>
           </li>
@@ -38,24 +34,17 @@
           <li class="navigation-item"><a class="nav-link contacts-phone" href="tel:+78005558628">+7 800 555-86-28</a>
           </li>
           <li class="navigation-item">
-            <a href="" class="nav-link search"><span class="visually-hidden">Поиск</span><img src="images/search.svg"
-                class="search-navigation" width="16" height="16" alt="Поиск" /></a>
-
-            <a href="" class="nav-link search-active search-none"><span class="visually-hidden">Поиск</span><img
-                src="images/Search-white.svg" class="search-navigation" width="16" height="16" alt="Поиск" /></a>
-
+            <a href="" class="nav-link search"><span class="visually-hidden">Поиск</span></a>
             <div class="popover popover-search">
               <form action="https://echo.htmlacademy.ru/" method="get" class="popover-search-form">
                 <input class="search-input-form" placeholder="Поиск по сайту" type="text" name="popover-search"
-                  aria-label="поле для поиска по сайту" />
+                  id="popover-search" aria-label="поле для поиска по сайту"/>
+                  <label class="visually-hidden" for="popover-search">Поиск по сайту</label>
               </form>
             </div>
           </li>
           <li class="navigation-item">
-            <a class="nav-link entrance" href=""><img src="images/entrance.svg" width="16" height="16"
-                class="entrance-navigation" alt="дверь" />Вход</a>
-            <a class="nav-link entrance-active entrance-none" href=""><img src="images/entrance-white.svg" width="16"
-                height="16" class="entrance-navigation" alt="дверь" />Вход</a>
+            <a class="nav-link entrance" href="">Вход</a>
             <div class="popover popover-entrance">
               <h2 class="popover-entrance-title">Личный кабинет</h2>
               <form action="https://echo.htmlacademy.ru/" method="get" class="popover-entrance-form">
@@ -73,10 +62,7 @@
             </div>
           </li>
           <li class="navigation-item">
-            <a class="nav-link" href=""><img src="images/basket.svg" class="basket-navigation" width="16" height="16"
-                alt="корзина" />2 товара</a>
-            <a class="nav-link basket-active basket-none" href=""><img src="images/basket-white.svg"
-                class="basket-navigation" width="16" height="16" alt="корзина" />2 товара</a>
+            <a class="nav-link basket" href="">2 товара</a>
             <div class="popover popover-basket">
               <h2 class="popover-basket-title">Корзина</h2>
               <ul class="popover-basket-list">
@@ -234,146 +220,146 @@
             </div>
           </form>
           <ul class="product-list">
-            <li class="popular-icecream-list-item">
-              <a href="" class="popular-icecream-image-link"><img src="images/ice-cream-round/raspberries-round.jpg"
-                  alt="Малиновый пломбир" class="popular-icecream-image" width="168" height="168" /></a>
+            <li class="popular-ice-cream-list-item">
+              <a href="" class="popular-ice-cream-image-link"><img src="images/ice-cream-round/raspberries-round.jpg"
+                  alt="Малиновый пломбир" class="popular-ice-cream-image" width="168" height="168" /></a>
 
-              <h3 class="popular-icecream-title"><a class="popular-icecream-title-link" href="">Малинка</a></h3>
-              <p class="popular-icecream-list-item-description">Сливочное мороженое с малиновым джемом</p>
+              <h3 class="popular-ice-cream-title"><a class="popular-ice-cream-title-link" href="">Малинка</a></h3>
+              <p class="popular-ice-cream-list-item-description">Сливочное мороженое с малиновым джемом</p>
               <div class="price-container">
-                <b class="product-price">310 ₽/кг</b> <a class="popular-icecream-link" href=""><span
+                <b class="product-price">310 ₽/кг</b> <a class="popular-ice-cream-link" href=""><span
                     class="visually-hidden">купить</span></a>
               </div>
             </li>
-            <li class="popular-icecream-list-item">
-              <a href="" class="popular-icecream-image-link"><img src="images/ice-cream-round/pistachio-round.jpg"
-                  alt="Фисташковый пломбир" class="popular-icecream-image" /></a>
+            <li class="popular-ice-cream-list-item">
+              <a href="" class="popular-ice-cream-image-link"><img src="images/ice-cream-round/pistachio-round.jpg"
+                  alt="Фисташковый пломбир" class="popular-ice-cream-image" /></a>
 
-              <h3 class="popular-icecream-title"><a href="" class="popular-icecream-title-link">Фисташка</a></h3>
-              <p class="popular-icecream-list-item-description">Фисташковый пломбир с кусочками шоколада</p>
+              <h3 class="popular-ice-cream-title"><a href="" class="popular-ice-cream-title-link">Фисташка</a></h3>
+              <p class="popular-ice-cream-list-item-description">Фисташковый пломбир с кусочками шоколада</p>
               <div class="price-container">
                 <b class="product-price">340 ₽/кг</b>
-                <a class="popular-icecream-link" href=""><span class="visually-hidden">купить</span></a>
+                <a class="popular-ice-cream-link" href=""><span class="visually-hidden">купить</span></a>
               </div>
             </li>
-            <li class="popular-icecream-list-item">
-              <a class="popular-icecream-image-link" href=""><img src="images/ice-cream-round/blueberry-round.jpg"
-                  alt="Черничный пломбир" class="popular-icecream-image" width="168" height="168" /></a>
+            <li class="popular-ice-cream-list-item">
+              <a class="popular-ice-cream-image-link" href=""><img src="images/ice-cream-round/blueberry-round.jpg"
+                  alt="Черничный пломбир" class="popular-ice-cream-image" width="168" height="168" /></a>
 
-              <h3 class="popular-icecream-title"><a href="" class="popular-icecream-title-link">Черника</a></h3>
+              <h3 class="popular-ice-cream-title"><a href="" class="popular-ice-cream-title-link">Черника</a></h3>
 
-              <p class="popular-icecream-list-item-description">Крем-брюле с черничным джемом</p>
+              <p class="popular-ice-cream-list-item-description">Крем-брюле с черничным джемом</p>
               <div class="price-container">
                 <b class="product-price">330 ₽/кг</b>
-                <a class="popular-icecream-link" href=""><span class="visually-hidden">купить</span></a>
+                <a class="popular-ice-cream-link" href=""><span class="visually-hidden">купить</span></a>
               </div>
             </li>
-            <li class="popular-icecream-list-item">
-              <a href="" class="popular-icecream-image-link"><img src="images/ice-cream-round/babl-round.jpg"
-                  alt="Ванильный пломбир" class="popular-icecream-image" width="168" height="168" /></a>
+            <li class="popular-ice-cream-list-item">
+              <a href="" class="popular-ice-cream-image-link"><img src="images/ice-cream-round/babl-round.jpg"
+                  alt="Ванильный пломбир" class="popular-ice-cream-image" width="168" height="168" /></a>
 
-              <h3 class="popular-icecream-title"><a href="" class="popular-icecream-title-link">Бабл-гам</a></h3>
+              <h3 class="popular-ice-cream-title"><a href="" class="popular-ice-cream-title-link">Бабл-гам</a></h3>
 
-              <p class="popular-icecream-list-item-description">Ванильный пломбир со сладкой посыпкой</p>
+              <p class="popular-ice-cream-list-item-description">Ванильный пломбир со сладкой посыпкой</p>
               <div class="price-container">
                 <b class="product-price">320 ₽/кг</b>
-                <a class="popular-icecream-link" href=""><span class="visually-hidden">купить</span></a>
+                <a class="popular-ice-cream-link" href=""><span class="visually-hidden">купить</span></a>
               </div>
             </li>
-            <li class="popular-icecream-list-item">
-              <a class="popular-icecream-image-link" href=""><img src="images/ice-cream-round/blackeberry-round.jpg"
-                  alt="Ежевичный пломбир" class="popular-icecream-image" width="168" height="168" /></a>
+            <li class="popular-ice-cream-list-item">
+              <a class="popular-ice-cream-image-link" href=""><img src="images/ice-cream-round/blackeberry-round.jpg"
+                  alt="Ежевичный пломбир" class="popular-ice-cream-image" width="168" height="168" /></a>
 
-              <h3 class="popular-icecream-title"><a class="popular-icecream-title-link" href="">Ежевика</a></h3>
+              <h3 class="popular-ice-cream-title"><a class="popular-ice-cream-title-link" href="">Ежевика</a></h3>
 
-              <p class="popular-icecream-list-item-description">Сливочное мороженое с ежевичным джемом</p>
+              <p class="popular-ice-cream-list-item-description">Сливочное мороженое с ежевичным джемом</p>
               <div class="price-container">
                 <b class="product-price">330 ₽/кг</b>
-                <a class="popular-icecream-link" href=""><span class="visually-hidden">купить</span></a>
+                <a class="popular-ice-cream-link" href=""><span class="visually-hidden">купить</span></a>
               </div>
             </li>
-            <li class="popular-icecream-list-item">
-              <a class="popular-icecream-image-link" href=""><img src="images/ice-cream-round/banan-round.jpg"
-                  alt="Банановый пломбир" class="popular-icecream-image" width="168" height="168" /></a>
+            <li class="popular-ice-cream-list-item">
+              <a class="popular-ice-cream-image-link" href=""><img src="images/ice-cream-round/banan-round.jpg"
+                  alt="Банановый пломбир" class="popular-ice-cream-image" width="168" height="168" /></a>
 
-              <h3 class="popular-icecream-title"><a class="popular-icecream-title-link" href="">Банан</a></h3>
+              <h3 class="popular-ice-cream-title"><a class="popular-ice-cream-title-link" href="">Банан</a></h3>
 
-              <p class="popular-icecream-list-item-description">Сливочный пломбир с банановым вкусом</p>
+              <p class="popular-ice-cream-list-item-description">Сливочный пломбир с банановым вкусом</p>
               <div class="price-container">
                 <b class="product-price">340 ₽/кг</b>
-                <a class="popular-icecream-link" href=""><span class="visually-hidden">купить</span></a>
+                <a class="popular-ice-cream-link" href=""><span class="visually-hidden">купить</span></a>
               </div>
             </li>
-            <li class="popular-icecream-list-item">
-              <a class="popular-icecream-image-link" href=""><img src="images/ice-cream-round/chocolate-round.jpg"
-                  alt="Шоколадный пломбир" class="popular-icecream-image" width="168" height="168" /></a>
+            <li class="popular-ice-cream-list-item">
+              <a class="popular-ice-cream-image-link" href=""><img src="images/ice-cream-round/chocolate-round.jpg"
+                  alt="Шоколадный пломбир" class="popular-ice-cream-image" width="168" height="168" /></a>
 
-              <h3 class="popular-icecream-title"><a class="popular-icecream-title-link" href="">Шоколадка</a></h3>
+              <h3 class="popular-ice-cream-title"><a class="popular-ice-cream-title-link" href="">Шоколадка</a></h3>
 
-              <p class="popular-icecream-list-item-description">Классический шоколадный пломбир</p>
+              <p class="popular-ice-cream-list-item-description">Классический шоколадный пломбир</p>
               <div class="price-container">
                 <b class="product-price">270 ₽/кг</b>
-                <a class="popular-icecream-link" href=""><span class="visually-hidden">купить</span></a>
+                <a class="popular-ice-cream-link" href=""><span class="visually-hidden">купить</span></a>
               </div>
             </li>
-            <li class="popular-icecream-list-item">
-              <a class="popular-icecream-image-link" href=""><img src="images/ice-cream-round/strawberry-round.jpg"
-                  alt="Клубничный пломбир" class="popular-icecream-image" width="168" height="168" /></a>
+            <li class="popular-ice-cream-list-item">
+              <a class="popular-ice-cream-image-link" href=""><img src="images/ice-cream-round/strawberry-round.jpg"
+                  alt="Клубничный пломбир" class="popular-ice-cream-image" width="168" height="168" /></a>
 
-              <h3 class="popular-icecream-title"><a class="popular-icecream-title-link" href="">Клубничка</a></h3>
+              <h3 class="popular-ice-cream-title"><a class="popular-ice-cream-title-link" href="">Клубничка</a></h3>
 
-              <p class="popular-icecream-list-item-description">Сливочный пломбир с клубничным вкусом</p>
+              <p class="popular-ice-cream-list-item-description">Сливочный пломбир с клубничным вкусом</p>
               <div class="price-container">
                 <b class="product-price">300 ₽/кг</b>
-                <a class="popular-icecream-link" href=""><span class="visually-hidden">купить</span></a>
+                <a class="popular-ice-cream-link" href=""><span class="visually-hidden">купить</span></a>
               </div>
             </li>
-            <li class="popular-icecream-list-item">
-              <a class="popular-icecream-image-link" href=""><img src="images/ice-cream-round/lemon-round.jpg"
-                  alt="Лимонный пломбир" class="popular-icecream-image" width="168" height="168" /></a>
+            <li class="popular-ice-cream-list-item">
+              <a class="popular-ice-cream-image-link" href=""><img src="images/ice-cream-round/lemon-round.jpg"
+                  alt="Лимонный пломбир" class="popular-ice-cream-image" width="168" height="168" /></a>
 
-              <h3 class="popular-icecream-title"><a class="popular-icecream-title-link" href="">Лимон</a></h3>
+              <h3 class="popular-ice-cream-title"><a class="popular-ice-cream-title-link" href="">Лимон</a></h3>
 
-              <p class="popular-icecream-list-item-description">Освежающий лимонный сорбет</p>
+              <p class="popular-ice-cream-list-item-description">Освежающий лимонный сорбет</p>
               <div class="price-container">
                 <b class="product-price">310 ₽/кг</b>
-                <a class="popular-icecream-link" href=""><span class="visually-hidden">купить</span></a>
+                <a class="popular-ice-cream-link" href=""><span class="visually-hidden">купить</span></a>
               </div>
             </li>
-            <li class="popular-icecream-list-item">
-              <a class="popular-icecream-image-link" href=""><img src="images/ice-cream-round/menthol-round.jpg"
-                  alt="Ментольный пломбир" class="popular-icecream-image" width="168" height="168" /></a>
+            <li class="popular-ice-cream-list-item">
+              <a class="popular-ice-cream-image-link" href=""><img src="images/ice-cream-round/menthol-round.jpg"
+                  alt="Ментольный пломбир" class="popular-ice-cream-image" width="168" height="168" /></a>
 
-              <h3 class="popular-icecream-title"><a class="popular-icecream-title-link" href="">Ментол</a></h3>
+              <h3 class="popular-ice-cream-title"><a class="popular-ice-cream-title-link" href="">Ментол</a></h3>
 
-              <p class="popular-icecream-list-item-description">Сливочный пломбир с ментоловым сиропом</p>
+              <p class="popular-ice-cream-list-item-description">Сливочный пломбир с ментоловым сиропом</p>
               <div class="price-container">
                 <b class="product-price">320 ₽/кг</b>
-                <a class="popular-icecream-link" href=""><span class="visually-hidden">купить</span></a>
+                <a class="popular-ice-cream-link" href=""><span class="visually-hidden">купить</span></a>
               </div>
             </li>
-            <li class="popular-icecream-list-item">
-              <a class="popular-icecream-image-link" href=""><img src="images/ice-cream-round/nut-round.jpg"
-                  alt="Орешковый пломбир" class="popular-icecream-image" width="168" height="168" /></a>
+            <li class="popular-ice-cream-list-item">
+              <a class="popular-ice-cream-image-link" href=""><img src="images/ice-cream-round/nut-round.jpg"
+                  alt="Орешковый пломбир" class="popular-ice-cream-image" width="168" height="168" /></a>
 
-              <h3 class="popular-icecream-title"><a class="popular-icecream-title-link" href="">Орешек</a></h3>
+              <h3 class="popular-ice-cream-title"><a class="popular-ice-cream-title-link" href="">Орешек</a></h3>
 
-              <p class="popular-icecream-list-item-description">Фисташковый пломбир с шоколадным сиропом</p>
+              <p class="popular-ice-cream-list-item-description">Фисташковый пломбир с шоколадным сиропом</p>
               <div class="price-container">
                 <b class="product-price">360 ₽/кг</b>
-                <a class="popular-icecream-link" href=""><span class="visually-hidden">купить</span></a>
+                <a class="popular-ice-cream-link" href=""><span class="visually-hidden">купить</span></a>
               </div>
             </li>
-            <li class="popular-icecream-list-item">
-              <a class="popular-icecream-image-link" href=""><img src="images/ice-cream-round/creme-brulee-round.jpg"
-                  alt="Пломбир с крем-брюле" class="popular-icecream-image" width="168" height="168" /></a>
+            <li class="popular-ice-cream-list-item">
+              <a class="popular-ice-cream-image-link" href=""><img src="images/ice-cream-round/creme-brulee-round.jpg"
+                  alt="Пломбир с крем-брюле" class="popular-ice-cream-image" width="168" height="168" /></a>
 
-              <h3 class="popular-icecream-title"><a class="popular-icecream-title-link" href="">Крем-брюле</a></h3>
+              <h3 class="popular-ice-cream-title"><a class="popular-ice-cream-title-link" href="">Крем-брюле</a></h3>
 
-              <p class="popular-icecream-list-item-description">Классическое крем-брюле</p>
+              <p class="popular-ice-cream-list-item-description">Классическое крем-брюле</p>
               <div class="price-container">
                 <b class="product-price">280 ₽/кг</b>
-                <a class="popular-icecream-link" href=""><span class="visually-hidden">купить</span></a>
+                <a class="popular-ice-cream-link" href=""><span class="visually-hidden">купить</span></a>
               </div>
             </li>
           </ul>
@@ -414,56 +400,55 @@
     </main>
     <footer class="main-footer">
       <div class="footer-container">
-        <ul class="social-list">
-          <li class="social-item">
-            <a class="button" href="https://www.youtube.com/user/htmlacademyru"> <span
-                class="visually-hidden">Юттуб</span><img src="images/youtube.svg" width="24" height="24" alt="иконка ютуба"
-                class="social-icon" /> </a>
-          </li>
-          <li class="social-item">
-            <a class="button" href="https://vk.com/htmlacademy"> <span class="visually-hidden">ВКонтакте</span><img
-                src="images/vk.svg" alt="иконка вк" width="24" height="24" class="social-icon" /> </a>
-          </li>
-          <li class="social-item">
-            <a class="button" href="https://t.me/htmlacademy"> <span class="visually-hidden">Телеграм</span><img
-                src="images/telegram.svg" alt="иконка ютуба" width="24" height="24" class="social-icon" /> </a>
-          </li>
-        </ul>
-        <div class="heart-container">
-          <img src="images/heart.svg" width="16" height="16" alt="сердечко" class="heart" />
+              <ul class="social-list">
+                <li class="social-item">
+                  <a class="button social-link social-link-telegram" href="https://t.me/htmlacademy">
+                    <span class="visually-hidden">Телеграм</span>
+                  </a>
+                </li>
+
+                <li class="social-item">
+                  <a class="button social-link social-link-vk" href="https://vk.com/htmlacademy">
+                    <span class="visually-hidden">ВКонтакте</span>
+                  </a>
+                </li>
+                <li class="social-item">
+                  <a class="button social-link social-link-youtube" href="https://www.youtube.com/user/htmlacademyru">
+                    <span class="visually-hidden">Юттуб</span>
+                  </a>
+                </li>
+              </ul>
+
+        <div class="heart-container"></div>
           <ul class="provider-list">
             <li class="provider-list-item"><a href="" class="provider-item-link">Для поставщиков</a></li>
             <li class="provider-list-item"><a href="" class="provider-item-link">Наши документы</a></li>
             <li class="provider-list-item"><a href="" class="provider-item-link">О производстве</a></li>
             <li class="provider-list-item"><a href="" class="provider-item-link">Экологические стандарты</a></li>
           </ul>
-        </div>
-        <div class="studuio-card">
+        <div class="studio-card">
           <a href="https://htmlacademy.ru/" class="logo-link"><img src="images/logo_htmlacademy.svg"
               alt="Логотип htmlacademy" class="logo" width="93" height="26" /></a>
 
-          <p class="studuio-description">Сделано в <a href="" class="studio-link">.html academy</a> © 2021</p>
+          <p class="studio-description">Сделано в <a href="" class="studio-link">.html academy</a> © 2021</p>
         </div>
       </div>
     </footer>
-      <div class="modal-container-close">
+     <div class="modal-container-close">
       <div class="modal-container">
-        <div class="modal">
-          <button class="modal-close-button" type="button">
-            <span class="visually-hidden">Закрыть</span>
-          </button>
-          <form class="modal-form" action="https://echo.htmlacademy.ru/" method="get">
-            <h2 class="modal-title">Мы обязательно ответим вам!</h2>
-            <input type="text" name="modal-name-surname" placeholder="Имя и фамилия" class="modal-input error" required />
-            <input type="text" name="modal-email" placeholder="email@example.com" class="modal-input" required />
-            <input type="text" name="modal-text" placeholder="В свободной форме" class="modal-input" required />
-
-            <button class="newsleter-button button modal-button" type="submit">Отправить</button>
-          </form>
-        </div>
+       <div class="modal">
+        <button class="modal-close-button" type="button">
+          <span class="visually-hidden">Закрыть</span>
+        </button>
+        <form class="modal-form" action="https://echo.htmlacademy.ru/" method="get">
+          <h2 class="modal-title">Мы обязательно ответим вам!</h2>
+          <input type="text" name="modal-name-surname" placeholder="Имя и фамилия" class="modal-input  error" required />
+          <input type="email" name="modal-email" placeholder="email@example.com" class="modal-input" required />
+          <input type="text" name="modal-text" placeholder="В свободной форме" class="modal-input" required />
+          <button class="newsletter-button button modal-button" type="submit">Отправить</button>
+        </form>
       </div>
     </div>
-    </body>
-
-
-    </html>
+  </div>
+</body>
+</html>
