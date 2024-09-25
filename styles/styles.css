@@ -1155,6 +1155,7 @@ input[type="range"] {
   box-sizing: border-box;
   padding: 8px 24px;
   border-radius: 18px;
+  flex-wrap: wrap;
 }
 .catalog-filter-list .catalog-filter-item {
   margin-right: 16px;
@@ -1168,6 +1169,7 @@ input[type="range"] {
   padding: 10px 24px;
   background-color: rgba(252, 252, 252, 0.3);
   border-radius: 18px;
+  flex-wrap: wrap;
 }
 .filler .button {
   font-family: "Inter";
