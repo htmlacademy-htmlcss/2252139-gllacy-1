@@ -1718,13 +1718,7 @@ a.button-popover-basket {
   display: inline-block;
   border-radius: 24px;
 }
-.social-icon:hover {
-  background-color: #2d3440;
-}
-.social-icon:active {
-  background-color: #2d3440;
-  opacity: 50%;
-}
+
 .social-link:focus-visible {
   background-color: #2b3440;
   box-shadow: 0 0 0 2px #2d3440;
@@ -2052,12 +2046,42 @@ background-position-y:8px ;
   background-position: 50% 50%;
 }
 .basket{
-  background-image: url("../images/basket.svg");
-  background-repeat: no-repeat;
-  background-size: 16px 16px;
-  width:115px ;
-  box-sizing: border-box;
+background-image: url("../images/basket.svg");
+background-repeat: no-repeat;
+background-size: 16px 16px;
+width:115px ;
+box-sizing: border-box;
 background-position-x:16px ;
 background-position-y:8px ;
 text-align: right;
+}
+.social-link-telegram{
+background-image: url("../images/telegram.svg");
+background-repeat: no-repeat;
+background-size: 24px 24px;
+box-shadow: 0 0 0 2px rgba(252, 252, 252, 0.3);
+}
+.social-link-vk{
+  background-image: url("../images/vk.svg");
+  background-size:24px 24px;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 0 2px rgba(252, 252, 252, 0.3);
+}
+.social-link-youtube{
+  background-image: url("../images/youtube.svg");
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  box-shadow: 0 0 0 2px rgba(252, 252, 252, 0.3);
+}
+.social-link:hover{
+background-color: rgb(45, 52, 64);
+}
+.social-link:active{
+background-color: rgb(45, 52, 64);
+opacity: 50%;
+}
+.social-link:active{
+background-color: rgb(45, 52, 64);
+box-shadow: none;
+outline: 2px solid rgb(45, 52, 64);;
 }
