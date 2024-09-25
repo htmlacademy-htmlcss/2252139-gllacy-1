@@ -49,9 +49,9 @@
             <div class="popover popover-entrance">
               <h2 class="popover-entrance-title">Личный кабинет</h2>
               <form action="https://echo.htmlacademy.ru/" method="get" class="popover-entrance-form">
-                <input type="email" class="popover-email" name="popover-email" placeholder="email@example.com"
+                <input type="email" class="popover-email" name="popover-email" aria-label="поле для ввода email" placeholder="email@example.com"
                   required />
-                <input type="password" class="popover-password" name="popover-password" placeholder="пароль" required />
+                <input type="password" class="popover-password" name="popover-password" aria-label="поле для ввода пароля" placeholder="пароль" required />
                 <div class="popover-email-container">
                   <button class="button button-popover" type="submit">Войти</button>
                   <ul class="popover-entrance-list">
@@ -427,9 +427,10 @@
         </button>
         <form class="modal-form" action="https://echo.htmlacademy.ru/" method="get">
           <h2 class="modal-title">Мы обязательно ответим вам!</h2>
-          <input type="text" name="modal-name-surname" placeholder="Имя и фамилия" class="modal-input  error" required />
+          <input type="text" name="modal-name-surname"  id="modal-name-surname" placeholder="Имя и фамилия" class="modal-input" required />
+          <label class="visually-hidden" for="modal-name-surname">Имя и фамилия</label>
           <input type="email" name="modal-email" placeholder="email@example.com" class="modal-input" required />
-          <input type="text" name="modal-text" placeholder="В свободной форме" class="modal-input" required />
+          <textarea name="modal-text" placeholder="В свободной форме" class="modal-input" required ></textarea>
           <button class="newsletter-button button modal-button" type="submit">Отправить</button>
         </form>
       </div>

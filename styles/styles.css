@@ -2557,3 +2557,7 @@ a.button-popover-basket {
 .popover-catalog:hover {
 	display: block;
 }
+
+.modal-form textarea{
+  height: 156px;
+}
