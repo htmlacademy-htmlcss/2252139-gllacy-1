@@ -277,6 +277,7 @@ body {
 }
 .studio-card {
   width: 193px;
+  margin-left: auto;
 }
 .about-list {
   margin: 0;
@@ -806,7 +807,6 @@ aside {
 }
 .footer-container {
   display: flex;
-  justify-content: space-between;
 }
 .main-footer {
   padding: 48px 0;
@@ -820,6 +820,7 @@ aside {
   column-gap: 24px;
   padding: 0;
   row-gap: 8px;
+margin-left: 8px;
 }
 .provider-list-item {
   height: 20px;
@@ -2110,4 +2111,13 @@ outline: 2px solid rgb(45, 52, 64);;
   background-image: url("../images/thermometer.svg");
   background-repeat: no-repeat;
   background-size: 48px 48px;
+}
+.heart-container{
+  background-image: url("../images/heart.svg");
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  margin-left: 259px;
+  background-position: 50% 50%;
+  margin-top: 4px;
 }
