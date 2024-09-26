@@ -980,7 +980,7 @@ aside {
 	column-gap: 24px;
 	padding: 0;
 	row-gap: 8px;
-	margin-left: 8px;
+	margin-left: 283px;
 }
 
 .provider-list-item {
@@ -2538,9 +2538,10 @@ a.button-popover-basket {
 	background-repeat: no-repeat;
 	width: 16px;
 	height: 16px;
-	margin-left: 259px;
 	background-position: 50% 50%;
 	margin-top: 4px;
+  position: absolute;
+  margin-left: -26px;
 }
 
 .popover-catalog {
