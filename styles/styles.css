@@ -2559,7 +2559,7 @@ a.button-popover-basket {
 	z-index: 1;
 }
 
-.popover-hover {
+.popover-hover-catalog {
 	width: 114px;
 	height: 13px;
 	position: absolute;
@@ -2618,7 +2618,43 @@ a.button-popover-basket {
 }
 
 h1.main-title{
-margin: 0;
-margin-top: 15px;
-margin-bottom: 40px;
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+.popover-hover-search {
+	width: 32px;
+	height: 13px;
+	position: absolute;
+  right : 0;
+	top: -13px;
+}
+
+.popover-search:hover{
+  display: block;
+}
+
+.popover-hover-entrance{
+	width: 88px;
+	height: 13px;
+	position: absolute;
+  right : 0;
+	top: -13px;
+}
+
+.popover-entrance:hover{
+  display: block;
+}
+
+.popover-hover-basket{
+	width: 115px;
+	height: 13px;
+	position: absolute;
+  right : 0;
+	top: -13px;
+}
+
+.popover-basket:hover{
+  display: block;
 }
